@@ -75,14 +75,14 @@ const CtaSection = () => {
 
           {/* Phone CTA */}
           <div className="mt-12 pt-8 border-t border-border/50">
-            <p className="text-muted-foreground mb-2">
-              Want us to set everything up for you?
+            <p className="text-muted-foreground mb-4">
+              Want us to increase your conversions and double your referrals each month? Our Done-for-You services compound month after month to have all the major answer engines referring your services.
             </p>
             <a
               href="tel:2135375613"
               className="inline-flex items-center gap-2 text-xl font-display font-semibold text-primary hover:text-primary/80 transition-colors"
             >
-              Call (213) 537-5613 for Done-For-You Service
+              Call (213) 537-5613
             </a>
           </div>
         </div>
