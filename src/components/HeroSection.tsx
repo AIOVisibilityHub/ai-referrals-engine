@@ -24,10 +24,11 @@ const HeroSection = () => {
       <div className="container relative z-10 px-4 py-20 md:py-32">
         <div className="max-w-5xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-secondary/50 border border-border mb-8 animate-fade-in">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-background/80 border border-primary/30 mb-8 animate-fade-in">
             <Sparkles className="w-4 h-4 text-primary" />
-            <span className="text-sm font-medium text-muted-foreground">
-              Holiday Special — 50% Off Through 2025
+            <span className="text-sm font-medium">
+              <span className="text-foreground">Get Recommended</span>{" "}
+              <span className="text-primary font-bold">24/7</span>
             </span>
           </div>
 
