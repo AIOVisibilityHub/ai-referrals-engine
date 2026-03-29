@@ -127,7 +127,6 @@ const PricingSection = () => {
                       </span>
                       <span className="text-muted-foreground">one-time</span>
                     </div>
-                    <p className="text-sm text-primary mt-2">Save ${(tier.originalPrice - tier.salePrice).toLocaleString()} — Holiday Special</p>
                   </div>
 
                   {/* Features */}
