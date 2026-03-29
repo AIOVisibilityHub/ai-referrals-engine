@@ -74,10 +74,11 @@ const PricingSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-6">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-background/80 border border-primary/30 mb-6">
               <Zap className="w-4 h-4 text-primary" />
-              <span className="text-sm font-semibold text-primary">
-                50% Off for a Limited Time Only
+              <span className="text-sm font-semibold">
+                <span className="text-foreground">50% Off</span>{" "}
+                <span className="text-primary">for a Limited Time Only</span>
               </span>
             </div>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
@@ -154,10 +155,6 @@ const PricingSection = () => {
 
           {/* Bottom urgency */}
           <div className="mt-12 text-center">
-            <p className="text-muted-foreground mb-4">
-              <span className="text-foreground font-semibold">Prices double on January 1st, 2026.</span>{" "}
-              Get your 2025 tax write-off while saving 50%.
-            </p>
             <p className="text-sm text-muted-foreground">
               Prefer done-for-you service? Call{" "}
               <a href="tel:2135375613" className="text-primary hover:underline font-semibold">
