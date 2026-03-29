@@ -74,17 +74,17 @@ const PricingSection = () => {
         <div className="max-w-6xl mx-auto">
           {/* Section header */}
           <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-destructive/10 border border-destructive/20 mb-6">
-              <Zap className="w-4 h-4 text-destructive" />
-              <span className="text-sm font-semibold text-destructive">
-                Holiday Special — 50% Off Ends December 31st
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/30 mb-6">
+              <Zap className="w-4 h-4 text-primary" />
+              <span className="text-sm font-semibold text-primary">
+                50% Off for a Limited Time Only
               </span>
             </div>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
               Choose Your <span className="text-gradient-gold">Industry Package</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              One-time investment. Fully automated. Get a 2025 tax write-off while securing your AI visibility for 2026.
+              One-time investment. Fully automated. Increase your AI visibility across all major answer engines.
             </p>
           </div>
 
