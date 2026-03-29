@@ -76,7 +76,7 @@ const CtaSection = () => {
           {/* Phone CTA */}
           <div className="mt-12 pt-8 border-t border-border/50">
             <p className="text-muted-foreground mb-4">
-              Want us to increase your conversions and double your referrals each month? Our Done-for-You services compound month after month to have all the major answer engines referring your services.
+              Want us to increase your AI visibility? Increase conversions? Double your AI referrals each month? Our Done-for-You services will compound our efforts month-after-month so answer engines will begin referring your services.
             </p>
             <a
               href="tel:2135375613"
