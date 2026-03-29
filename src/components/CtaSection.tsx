@@ -69,7 +69,7 @@ const CtaSection = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <p className="text-sm text-muted-foreground">
-              One-time purchase • Prices double January 1st
+              One-time purchase • Fully Automated
             </p>
           </div>
 
