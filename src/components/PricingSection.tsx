@@ -1,63 +1,62 @@
 import { Button } from "@/components/ui/button";
-import { Check, Briefcase, Scale, Stethoscope, Zap } from "lucide-react";
+import { Check, Zap, Trophy } from "lucide-react";
 
 const pricingTiers = [
   {
-    id: "business",
-    name: "Business",
-    icon: Briefcase,
-    description: "For business owners & entrepreneurs",
-    originalPrice: 1994,
-    salePrice: 997,
-    color: "from-blue-500 to-cyan-500",
+    id: "diy",
+    name: "DIY — AI Referrals Hub Software",
+    icon: Zap,
+    tagline: "You or your team runs it. We back you up.",
+    description:
+      "Perfect if you have staff who can manage the platform or want full control over your AI visibility.",
+    originalPrice: 1495,
+    salePrice: 795,
+    priceSuffix: "one-time",
+    footnote: "Lifetime updates as AI platforms evolve",
+    ctaLabel: "GET THE SOFTWARE — $795",
+    ctaUrl: "https://buy.stripe.com/bJe9ATeyP7On9yQ8fLcwg0r",
+    badge: "Founding member pricing — will increase",
     features: [
-      "Business Knowledge Pack",
-      "Business Overview Knowledge File",
-      "Services Knowledge File",
-      "FAQ Knowledge File",
-      "Customer Persona Knowledge File",
-      "Industry Topics Knowledge File",
-      "All 100+ Core Automations",
-      "Lifetime Updates",
+      "Complete access to AI Referrals Hub platform",
+      "Hundreds-to-thousands of schemas generated from your URL",
+      "Multi-platform publishing to GitHub, GitHub Pages, GitLab, Hugging Face, Kaggle, Codeberg",
+      "Perplexity-powered FAQ research per case type + city",
+      "Unanswered Q&A discovery for Google AI Overviews",
+      "Citation-ready help articles per case type that qualify for Google AI Overviews & Snippets & AI Answer Engine responses",
+      "Custom topic help article generator",
+      "Testimonial discovery across Avvo, Google, Yelp and Facebook",
+      "Crawls each page of your website to add AI citation-ready content for LLMs: generates JSON-LD, breadcrumbs, and meta tags for that page",
+      "14-tool Authority Builder Suite — AI-powered tools to build authority, trust signals, and AI visibility",
+      "Ongoing updates as AI platforms evolve",
     ],
   },
   {
-    id: "legal",
-    name: "Legal",
-    icon: Scale,
-    description: "For lawyers & law firms",
-    originalPrice: 2994,
-    salePrice: 1497,
+    id: "dfy",
+    name: "Done For You — Full Annual Plan",
+    icon: Trophy,
+    tagline: "We handle everything. You get the referrals.",
+    description:
+      "Perfect if you want results without touching the platform — our team runs everything for your firm.",
+    originalPrice: 5995,
+    salePrice: 2995,
+    priceSuffix: "/year",
     popular: true,
-    color: "from-primary to-gold-light",
+    footnote: "Like getting 6 months free — saves you $3,000",
+    ctaLabel: "HAVE US DO IT — $2,995/year",
+    ctaUrl: "https://buy.stripe.com/5kQ14n0HZ8Sr7qI9jPcwg02",
+    badge: "Most popular among busy firms",
     features: [
-      "Legal Knowledge Pack",
-      "Legal Services Knowledge File",
-      "Legal QnA Knowledge File",
-      "Case Type Knowledge File",
-      "Legal Glossary Knowledge File",
-      "Compliance & Ethics Notes File",
-      "All 100+ Core Automations",
-      "Lifetime Updates",
-    ],
-  },
-  {
-    id: "medical",
-    name: "Medical",
-    icon: Stethoscope,
-    description: "For doctors & healthcare professionals",
-    originalPrice: 3994,
-    salePrice: 1997,
-    color: "from-emerald-500 to-teal-500",
-    features: [
-      "Medical Knowledge Pack",
-      "Medical Services Knowledge File",
-      "Medical Condition QnA File",
-      "Medical Glossary Knowledge File",
-      "Treatment & Protocol Knowledge File",
-      "Patient Persona Knowledge File",
-      "All 100+ Core Automations",
-      "Lifetime Updates",
+      "We generate all schemas, FAQs, Q&A sets, help articles and authority content to qualify for Google's AI Overviews & Snippets, and AI Search / Answer Engine responses",
+      "Each month we build and expand on your FAQs, Q&A sets, help articles",
+      "We publish and maintain your presence across all 6 repositories & platforms",
+      "We publish or provide files for your website root directory, i.e. sitemaps, LLM files, robot files, Markdown + YAML entity files, knowledge graphs and LLM source blocks that are citation-ready text for RAG systems",
+      "For each page of your website, we generate AI citation-ready content for LLMs, i.e. schema JSON-LD, breadcrumbs, and meta tags so AI knows everything about that page",
+      "We provide an analysis of missed opportunities, visibility gaps, and pain points mapped to solutions — so you know exactly where to focus for maximum AI referrals",
+      "Monthly updates — Generate additional FAQs/QNAs/help articles, and add new cities, case types, attorneys added, if needed",
+      "Ongoing content refresh every 30 days so AI stays confident referring you",
+      "Submission to Google, Bing and AI Search",
+      "Priority support and dedicated account management",
+      "Full Authority Builder Suite run and maintained for you",
     ],
   },
 ];
@@ -77,60 +76,42 @@ const PricingSection = () => {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-background/80 border border-primary/30 mb-6">
               <Zap className="w-4 h-4 text-primary" />
               <span className="text-sm font-semibold">
-                <span className="text-foreground">50% Off</span>{" "}
-                <span className="text-primary">for a Limited Time Only</span>
+                <span className="text-foreground">Two Ways</span>{" "}
+                <span className="text-primary">to Get AI Referrals</span>
               </span>
             </div>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
-              Choose Your <span className="text-gradient-gold">Industry Package</span>
+              Do It Yourself or{" "}
+              <span className="text-gradient-gold">Have Us Do It For You</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              One-time investment. Fully automated. Increase your AI visibility across all major answer engines.
+              Choose the AI Referrals Hub software and run it yourself, or let our team handle everything for you.
             </p>
           </div>
 
           {/* Pricing cards */}
-          <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
             {pricingTiers.map((tier) => (
               <div
                 key={tier.id}
                 className={`relative bg-gradient-card rounded-2xl border ${
                   tier.popular ? "border-primary glow-gold" : "border-border/50"
-                } overflow-hidden`}
+                } overflow-hidden flex flex-col`}
               >
-                {tier.popular && (
-                  <div className="absolute top-0 left-0 right-0 bg-gradient-gold py-2 text-center">
-                    <span className="text-sm font-bold text-primary-foreground">MOST POPULAR</span>
-                  </div>
-                )}
-
-                <div className={`p-8 ${tier.popular ? "pt-14" : ""}`}>
+                <div className="p-8 flex flex-col flex-1">
                   {/* Icon and name */}
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${tier.color} flex items-center justify-center`}>
+                  <div className="flex items-center gap-3 mb-3">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-gold-light flex items-center justify-center flex-shrink-0">
                       <tier.icon className="w-6 h-6 text-primary-foreground" />
                     </div>
-                    <div>
-                      <h3 className="font-display text-xl font-bold">{tier.name}</h3>
-                      <p className="text-sm text-muted-foreground">{tier.description}</p>
-                    </div>
+                    <h3 className="font-display text-xl font-bold">{tier.name}</h3>
                   </div>
 
-                  {/* Pricing */}
-                  <div className="mb-6">
-                    <div className="flex items-baseline gap-2 mb-1">
-                      <span className="text-2xl text-muted-foreground line-through">${tier.originalPrice.toLocaleString()}</span>
-                    </div>
-                    <div className="flex items-baseline gap-2">
-                      <span className="font-display text-5xl font-bold text-gradient-gold">
-                        ${tier.salePrice.toLocaleString()}
-                      </span>
-                      <span className="text-muted-foreground">one-time</span>
-                    </div>
-                  </div>
+                  <p className="font-semibold text-foreground mb-2">{tier.tagline}</p>
+                  <p className="text-sm text-muted-foreground mb-6">{tier.description}</p>
 
                   {/* Features */}
-                  <ul className="space-y-3 mb-8">
+                  <ul className="space-y-3 mb-8 flex-1">
                     {tier.features.map((feature) => (
                       <li key={feature} className="flex items-start gap-3">
                         <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
@@ -139,14 +120,30 @@ const PricingSection = () => {
                     ))}
                   </ul>
 
+                  {/* Pricing */}
+                  <div className="mb-2">
+                    <div className="flex items-baseline gap-2 mb-1">
+                      <span className="text-xl text-muted-foreground line-through">
+                        ${tier.originalPrice.toLocaleString()}
+                        {tier.priceSuffix === "/year" ? "/year" : ""}
+                      </span>
+                    </div>
+                    <div className="flex items-baseline gap-2">
+                      <span className="font-display text-5xl font-bold text-gradient-gold">
+                        ${tier.salePrice.toLocaleString()}
+                      </span>
+                      <span className="text-muted-foreground font-semibold">{tier.priceSuffix}</span>
+                    </div>
+                    <p className="text-sm text-muted-foreground mt-2">{tier.footnote}</p>
+                  </div>
+
                   {/* CTA */}
-                  <Button
-                    variant={tier.popular ? "gold" : "goldOutline"}
-                    size="lg"
-                    className="w-full"
-                  >
-                    Get Started Now
-                  </Button>
+                  <a href={tier.ctaUrl} target="_blank" rel="noopener noreferrer" className="mt-6">
+                    <Button variant="gold" size="lg" className="w-full">
+                      {tier.ctaLabel}
+                    </Button>
+                  </a>
+                  <p className="text-xs text-center text-muted-foreground mt-3">{tier.badge}</p>
                 </div>
               </div>
             ))}
@@ -155,7 +152,7 @@ const PricingSection = () => {
           {/* Bottom urgency */}
           <div className="mt-12 text-center">
             <p className="text-sm text-muted-foreground">
-              Prefer done-for-you service? Call{" "}
+              Questions? Call{" "}
               <a href="tel:2135375613" className="text-primary hover:underline font-semibold">
                 (213) 537-5613
               </a>
