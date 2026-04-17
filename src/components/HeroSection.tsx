@@ -37,16 +37,21 @@ const HeroSection = () => {
             Get{" "}
             <span className="text-gradient-gold">AI-Powered Referrals</span>
             <br />
-            24/7 Starting in 2026
+            24/7 through MTC (Machine to Consumer) Marketing
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             40% of prospects now ask ChatGPT, Perplexity & Google AI before making decisions.{" "}
             <span className="text-foreground font-medium">
-              Position your business to be the answer they find.
+              Position your firm to be the answer they find.
             </span>
           </p>
+
+          {/* Wistia video */}
+          <div className="max-w-3xl mx-auto mb-10 animate-fade-in rounded-2xl overflow-hidden border border-primary/20 shadow-2xl" style={{ animationDelay: "0.25s" }}>
+            <div dangerouslySetInnerHTML={{ __html: `<wistia-player media-id="kb0zmstx9r" aspect="1.6"></wistia-player>` }} />
+          </div>
 
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-8 md:gap-16 mb-12 animate-fade-in" style={{ animationDelay: "0.3s" }}>
@@ -78,9 +83,9 @@ const HeroSection = () => {
 
           {/* Trust indicator */}
           <p className="mt-12 text-sm text-muted-foreground animate-fade-in" style={{ animationDelay: "0.5s" }}>
-            For <span className="text-foreground">Business Owners</span> •{" "}
+            For <span className="text-foreground">Solo Practitioners</span> •{" "}
             <span className="text-foreground">Law Firms</span> •{" "}
-            <span className="text-foreground">Healthcare Professionals</span>
+            <span className="text-foreground">Legal Professionals</span>
           </p>
         </div>
       </div>

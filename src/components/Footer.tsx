@@ -1,4 +1,4 @@
-import { Bot } from "lucide-react";
+import { Scale } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -9,10 +9,10 @@ const Footer = () => {
             {/* Logo */}
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-gradient-gold flex items-center justify-center">
-                <Bot className="w-5 h-5 text-primary-foreground" />
+                <Scale className="w-5 h-5 text-primary-foreground" />
               </div>
               <div>
-                <p className="font-display font-bold">AI Visibility Hub</p>
+                <p className="font-display font-bold">AI Referrals Hub</p>
                 <p className="text-xs text-muted-foreground">Powered by n8n Technology</p>
               </div>
             </div>
@@ -28,7 +28,7 @@ const Footer = () => {
 
           <div className="mt-8 pt-8 border-t border-border/50 text-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} AI Visibility Hub. All rights reserved.
+              © {new Date().getFullYear()} AI Referrals Hub. All rights reserved.
             </p>
           </div>
         </div>
