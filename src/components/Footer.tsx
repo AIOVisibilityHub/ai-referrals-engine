@@ -17,13 +17,6 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* Contact */}
-            <div className="text-center md:text-right">
-              <p className="text-sm text-muted-foreground mb-1">Done-For-You Service</p>
-              <a href="tel:2135375613" className="font-semibold text-primary hover:underline">
-                (213) 537-5613
-              </a>
-            </div>
           </div>
 
           <div className="mt-8 pt-8 border-t border-border/50 text-center">

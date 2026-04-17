@@ -92,7 +92,7 @@ const FeaturesDetailSection = () => {
             <p className="text-primary font-medium mb-4">COMPLETE FEATURE LIST</p>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
               Everything You Get with{" "}
-              <span className="text-gradient-gold">AI Visibility Hub</span>
+              <span className="text-gradient-gold">AI Referrals Hub</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               100+ pre-built automations across 11 categories. No coding required. Just complete your AI visibility profile and let the software work for you.
