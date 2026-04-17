@@ -45,7 +45,7 @@ const SolutionSection = () => {
               Your 24/7 <span className="text-gradient-gold">AI Sales Machine</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              AI Referrals Hub is fully automated n8n software with 100+ built-in automations that position your business to be recommended by every major AI platform—without learning any code.
+              AI Referrals Hub is fully automated with 100+ built-in automations that position your business to be recommended by every major AI platform—without learning any code.
             </p>
           </div>
 
