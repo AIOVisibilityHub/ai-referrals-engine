@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Bot, Menu, X } from "lucide-react";
+import { Scale, Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -17,9 +17,9 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex items-center gap-3">
             <div className="w-9 h-9 rounded-lg bg-gradient-gold flex items-center justify-center">
-              <Bot className="w-5 h-5 text-primary-foreground" />
+              <Scale className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-display font-bold text-lg">AI Visibility Hub</span>
+            <span className="font-display font-bold text-lg">AI Referrals Hub</span>
           </div>
 
           {/* Desktop nav */}
