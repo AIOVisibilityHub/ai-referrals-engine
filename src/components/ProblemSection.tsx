@@ -15,29 +15,6 @@ const ProblemSection = () => {
             </p>
           </div>
 
-          {/* Problem cards */}
-          <div className="grid md:grid-cols-2 gap-6 mb-16">
-            <div className="bg-gradient-card rounded-2xl p-8 border border-border/50">
-              <div className="w-12 h-12 rounded-xl bg-destructive/10 flex items-center justify-center mb-6">
-                <AlertCircle className="w-6 h-6 text-destructive" />
-              </div>
-              <h3 className="font-display text-xl font-semibold mb-3">The Old Way Is Dying</h3>
-              <p className="text-muted-foreground">
-                Traditional SEO and Google rankings are becoming less effective as 40% of decision-makers now turn to AI answer engines first. Your website might rank well, but if ChatGPT doesn't recommend you, you're losing clients.
-              </p>
-            </div>
-
-            <div className="bg-gradient-card rounded-2xl p-8 border border-border/50">
-              <div className="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-6">
-                <TrendingUp className="w-6 h-6 text-primary" />
-              </div>
-              <h3 className="font-display text-xl font-semibold mb-3">The New Reality</h3>
-              <p className="text-muted-foreground">
-                When prospects ask "Who's the best lawyer in LA?" or "Find me a cardiologist near me," AI engines pull from structured data, knowledge packs, and authority signals. Without them, you simply don't exist to AI.
-              </p>
-            </div>
-          </div>
-
           {/* The shift visualization */}
           <div className="bg-gradient-card rounded-2xl p-8 md:p-12 border border-primary/20 glow-gold-sm">
             <div className="grid md:grid-cols-3 gap-8 items-center">
