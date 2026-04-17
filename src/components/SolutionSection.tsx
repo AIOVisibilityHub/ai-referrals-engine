@@ -24,7 +24,7 @@ const features = [
   {
     icon: Cpu,
     title: "Knowledge Packs",
-    description: "Industry-specific knowledge files for Business, Legal, and Medical professionals that AI engines love.",
+    description: "Industry-specific knowledge files for Solo Practitioners, Law Firms and Legal Professionals that AI engines love.",
   },
   {
     icon: BarChart3,
