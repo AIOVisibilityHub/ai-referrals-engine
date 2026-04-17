@@ -45,18 +45,6 @@ const featureCategories = [
     items: ["Project Workspace", "File Structure Creator", "Auto Refresh Logic", "Search Engine Notifier", "Sync Automation", "Full Rebuild Tools"],
   },
   {
-    icon: MessageSquare,
-    title: "Custom GPT Builder",
-    count: 3,
-    items: ["GPT Instruction File", "GPT Persona Profile", "Knowledge Upload Prep"],
-  },
-  {
-    icon: Bot,
-    title: "AI Assistant Builder",
-    count: 3,
-    items: ["System Prompt Builder", "Context Bundle Creator", "Tools Definition File"],
-  },
-  {
     icon: Globe,
     title: "AI Website Builders",
     count: 10,
