@@ -54,7 +54,7 @@ const featureCategories = [
     icon: BookOpen,
     title: "Knowledge Packs",
     count: 15,
-    items: ["Business Pack", "Legal Pack", "Medical Pack", "Industry-Specific Files", "QnA Knowledge Files", "Glossary Files"],
+    items: ["Business Pack", "Legal Pack", "Industry-Specific Files", "QnA Knowledge Files", "Glossary Files"],
   },
   {
     icon: BarChart,
