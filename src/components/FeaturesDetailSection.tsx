@@ -83,10 +83,9 @@ const sections = [
     ],
   },
   {
-    title: "15-Tool Authority Builder Suite",
+    title: "14-Tool Authority Builder Suite",
     subtitle: "Everything AI needs to recognize your firm as the authority in your market.",
     items: [
-      "__NEW__HTML Generator — download large ZIP files of schema JSON and instantly convert hundreds of FAQs, Q&As and help articles into ready-to-publish HTML pages with accordion-style open/close formatting you can drop straight into your website",
       "AI Visibility Score — 0-100 score showing exactly where your firm stands across AI platforms",
       "Competitor Gap Detector — shows authority gaps between your firm and competitors AI is currently recommending",
       "Trust Signals Scorecard — evaluates and scores every trust signal AI systems use to evaluate your firm",
@@ -101,6 +100,16 @@ const sections = [
       "Authority Signal Generator — E-E-A-T signals and authority markers",
       "Reputation Metadata — business legitimacy and credential metadata",
       "Long-Form LLM — extended narrative for deep AI ingestion",
+    ],
+  },
+  {
+    title: "__NEW__HTML Generator",
+    subtitle: "A separate, standalone app inside AI Referrals Hub — turn your schema output into ready-to-publish webpages in minutes.",
+    items: [
+      "Download large ZIP files of schema JSON files generated across your entire firm",
+      "Instantly convert hundreds of FAQs, Q&As and help articles into ready-to-publish HTML webpages",
+      "Accordion-style open/close formatting designed to drop straight into any page of your website",
+      "No developer needed — copy, paste and publish",
     ],
   },
   {
