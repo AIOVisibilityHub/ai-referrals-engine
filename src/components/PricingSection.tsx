@@ -17,21 +17,26 @@ const pricingTiers = [
     ctaUrl: "https://buy.stripe.com/bJe9ATeyP7On9yQ8fLcwg0r",
     badge: "Founding Member Pricing — Limited to 25",
     features: [
-      "Complete access to AI Referrals Hub system",
-      "Hundreds-to-thousands of schemas generated from your URL",
-      "Multi-platform publishing to GitHub, GitHub Pages, GitLab, Hugging Face, Kaggle, Codeberg",
-      "Perplexity-powered FAQ research per case type + city",
-      "Unanswered Q&A discovery for AI Overviews & Answer Engines",
-      "Citation-ready help articles per case type + city mapping",
-      "Custom topic help article generator",
-      "Testimonial discovery across major platforms",
-      "Per-page AI optimization (JSON-LD, breadcrumbs, meta tags)",
-      "14-tool Authority Builder Suite",
-      "BONUS: HTML FAQ/Q&A page generator",
-      "BONUS: Content refresh every 30 days",
-      "BONUS: Auto submission to Google, Bing and AI Search",
-      "Ongoing updates as AI platforms evolve",
-    ],
+  "Get recommended by AI for your case types and cities",
+  "Hundreds to thousands of AI-ready data points generated from your website",
+  "Position your firm across platforms AI systems crawl, train, and learn from",
+  
+  "Find and answer the exact questions your future clients are asking AI",
+  "Uncover unanswered questions AI can’t fully answer yet—and own them",
+  "Generate citation-ready content designed to get pulled into AI answers",
+  
+  "Build authority signals AI uses to decide who to recommend",
+  "Discover and structure your firm’s reviews and reputation for AI trust",
+  "Optimize every page of your website so AI understands and cites it",
+  
+  "14-tool Authority Builder Suite to strengthen trust, expertise, and visibility",
+  
+  "BONUS: Instant AI Content Publisher™ — turn your content into ready-to-publish pages",
+  "BONUS: AI Freshness Engine™ — keeps your firm active and re-evaluated every 30 days",
+  "BONUS: AI Indexing + Submission System™ — gets your content discovered faster",
+  
+  "Ongoing updates as AI platforms evolve",
+]
   },
   {
     id: "dfy",
@@ -49,18 +54,25 @@ const pricingTiers = [
     ctaUrl: "https://buy.stripe.com/5kQ14n0HZ8Sr7qI9jPcwg02",
     badge: "Founding Member Plan — Limited to 10 Firms",
     features: [
-      "We generate all schemas, FAQs, Q&A sets, help articles and authority content",
-      "Monthly expansion of your AI visibility profile",
-      "Publishing across multiple AI-crawlable platforms",
-      "Root file setup (sitemaps, LLM files, robots, knowledge graphs)",
-      "Per-page AI optimization (JSON-LD, breadcrumbs, meta tags)",
-      "Visibility gap and opportunity analysis",
-      "Monthly content updates (FAQs, Q&A, articles, locations)",
-      "Ongoing content refresh every 30 days",
-      "Full Authority Builder Suite managed for you",
-      "Submission to Google, Bing and AI Search",
-      "Priority support and dedicated account management",
-    ],
+  "We position your firm to be recommended by AI for your case types and locations",
+  "We build and expand your AI visibility every month — so your presence compounds over time",
+  "We publish your firm across platforms AI systems crawl, train, and learn from",
+  
+  "We find the exact questions your future clients are asking AI — and make sure your firm answers them",
+  "We uncover unanswered opportunities and position your firm where others aren’t showing up",
+  "We create citation-ready content designed to be pulled into AI answers and recommendations",
+  
+  "We optimize every page of your website so AI understands, trusts, and cites your firm",
+  "We structure your firm’s reputation, reviews, and authority signals so AI favors you",
+  
+  "We continuously analyze your visibility gaps and expand where you’re missing opportunities",
+  "We refresh and update your content every 30 days so AI keeps recommending you",
+  
+  "We run and maintain the full Authority Builder Suite for you",
+  "We handle indexing and submission across Google, Bing, and AI search platforms",
+  
+  "Priority support and dedicated management — we handle everything for you",
+]
   },
 ];
 
