@@ -1,9 +1,20 @@
 import { Check, Shield } from "lucide-react";
 
-const sections = [
+type Section = {
+  title: string;
+  subtitle: string;
+  items: string[];
+  footer?: {
+    muted: string;
+    accent: string;
+  };
+};
+
+const sections: Section[] = [
   {
     title: "Core Schema Generation",
-    subtitle: "Your firm's complete AI visibility foundation in machine-readable formatting — built automatically from your URL and published where AI systems crawl, train and learn.",
+    subtitle:
+      "Your firm's complete AI visibility foundation in machine-readable formatting — built automatically from your URL and published where AI systems crawl, train and learn.",
     items: [
       "Hundreds to thousands of structured schema files specific to your practice areas, case types and locations",
       "Sitemap, robots.txt, LLM context files and AI plugin JSON — everything AI needs to crawl and understand your firm",
@@ -15,7 +26,8 @@ const sections = [
   },
   {
     title: "Perplexity-Powered FAQ Research",
-    subtitle: "Real questions. Real cities. Real case types. Generated from what people are actually asking right now.",
+    subtitle:
+      "Real questions. Real cities. Real case types. Generated from what people are actually asking right now.",
     items: [
       "Hundreds of FAQ schemas researched by Perplexity — based on real questions people ask about specific case types in your specific cities",
       "FAQPage markup specifically formatted for Google AI Overviews and featured snippets",
@@ -23,21 +35,22 @@ const sections = [
     ],
   },
   {
-    title: "Unanswered AI Overviews QNA & Snippets",
-    subtitle: "The questions AI answer engines can't fully answer yet — and your firm can own.",
+    title: "Unanswered AI Overviews Q&A + Snippets",
+    subtitle:
+      "The questions AI answer engines can't fully answer yet — and your firm can own.",
     items: [
       "Uses Perplexity to find specific unanswered questions qualifying for Google AI Overviews and featured snippets",
       "Generates QAPage schemas separate from FAQs for maximum search coverage",
-      "Puts your firm's answers in the gaps competitors haven't found yet",
+      "Puts your firm's answers in the gaps other firms haven't found yet",
     ],
   },
   {
     title: "Citation-Ready Help Articles + FAQ Hybrids",
     subtitle: "Engineered to get cited — not ignored.",
     items: [
-      "Help articles generated per case type using Perplexity research — ~400 words, specifically sized to qualify for Google AI Overviews, featured snippets and AI citations",
+      "Help articles generated per case type using Perplexity research — specifically sized to qualify for Google AI Overviews, featured snippets and AI citations",
       "Custom topic generator — enter any practice area, niche case type or local issue and generate targeted help articles on demand",
-      "Every article structured so AI systems can pull from it, cite it and recommend it when answering client questions",
+      "Every article is structured so AI systems can pull from it, cite it and recommend it when answering client questions",
     ],
   },
   {
@@ -50,7 +63,7 @@ const sections = [
     ],
   },
   {
-    title: "Per Page Crawl for Custom Code Insertion",
+    title: "Per-Page Crawl for Custom Code Insertion",
     subtitle: "AI visibility down to every single page of your website.",
     items: [
       "Enter any page URL — instantly generates JSON-LD, AI citations, breadcrumbs and meta tags for that specific page",
@@ -60,7 +73,8 @@ const sections = [
   },
   {
     title: "Website Root Files for LLMs and AI Systems",
-    subtitle: "The foundational files AI crawlers and answer engines look for first — generated and ready to drop into your site's root directory.",
+    subtitle:
+      "The foundational files AI crawlers and answer engines look for first — generated and ready to drop into your site's root directory.",
     items: [
       "sitemap.xml — tells Google and AI crawlers exactly which pages to index across your entire firm",
       "robots.txt — controls crawler access and signals which content AI systems are welcome to ingest",
@@ -86,8 +100,8 @@ const sections = [
     title: "14-Tool Authority Builder Suite",
     subtitle: "Everything AI needs to recognize your firm as the authority in your market.",
     items: [
-      "AI Visibility Score — 0-100 score showing exactly where your firm stands across AI platforms",
-      "Competitor Gap Detector — shows authority gaps between your firm and competitors AI is currently recommending",
+      "AI Visibility Score — 0–100 score showing exactly where your firm stands across AI platforms",
+      "Competitor Gap Detector — shows authority gaps between your firm and other firms AI is currently recommending",
       "Trust Signals Scorecard — evaluates and scores every trust signal AI systems use to evaluate your firm",
       "Topic Expansion — topic clusters, subtopics and semantic coverage opportunities",
       "Topic Depth Checker — evaluates topical coverage depth and gaps",
@@ -103,25 +117,49 @@ const sections = [
     ],
   },
   {
-    title: "NEW: HTML Generator",
-    subtitle: "A separate, standalone app for AI Referrals Hub — turns massive schema output into ready-to-publish webpages in minutes.",
+    title: "BONUS: Instant AI Content Publisher™",
+    subtitle:
+      "A separate standalone app that turns massive schema output into ready-to-publish pages in minutes.",
     items: [
-      "Download large ZIP files of schema JSON files generated across your entire firm",
-      "Instantly convert hundreds of FAQs, Q&As and help articles into ready-to-publish HTML webpages",
-      "Accordion-style open/close formatting designed to drop straight into any page of your website",
+      "Download large ZIP files of schema JSON generated across your entire firm",
+      "Instantly convert hundreds of FAQs, Q&As and help articles into ready-to-publish HTML pages",
+      "Accordion-style formatting designed to drop straight into any page of your website",
       "No developer needed — copy, paste and publish",
     ],
   },
   {
-    title: "Your Firm Gets Published Across 6 AI-Crawlable Platforms Simultaneously",
-    subtitle: "(Mirrors Your Website for 7 Places to be Discovered) — In addition to your site's machine-readable files",
+    title: "BONUS: AI Freshness Engine™",
+    subtitle:
+      "Keeps your firm current, visible, and continuously re-evaluated by AI systems.",
     items: [
-      "GitHub — Most trusted data repository on the internet — heavily crawled by every major AI system",
-      "GitHub Pages — Creates a live publicly accessible AI-crawlable website published specifically for your firm",
-      "GitLab — Mirrored repository for redundancy — more places AI crawls means more citations",
-      "Hugging Face — Where large language models are actively trained — your firm's data lives where AI goes to learn",
-      "Kaggle — Owned by Google since 2017 — a standard source AI models consult for datasets, widely recognized as a top public dataset hub",
-      "Codeberg — For static site hosting via Codeberg Pages — indexed by Google, high trust signal, additional AI-crawlable web presence for your firm",
+      "Automatic content refresh every 30 days",
+      "Triggers re-indexing across Google, Bing and AI search engines",
+      "Signals ongoing activity so AI stays confident recommending your firm",
+      "Fully automated — runs in the background",
+    ],
+  },
+  {
+    title: "BONUS: AI Indexing + Submission System™",
+    subtitle:
+      "Gets your new content and updates discovered faster across search and AI platforms.",
+    items: [
+      "Automated submission to Google, Bing and AI search engines",
+      "Accelerates discovery of newly published pages and updates",
+      "Helps your firm get re-evaluated faster when new authority signals go live",
+      "Runs automatically without manual submission work",
+    ],
+  },
+  {
+    title: "Your Firm Gets Published Across 6 AI-Crawlable Platforms Simultaneously",
+    subtitle:
+      "(Mirrors Your Website for 7 Places to be Discovered) — in addition to your site's machine-readable files.",
+    items: [
+      "GitHub — one of the most trusted public data repositories, heavily crawled by major AI systems",
+      "GitHub Pages — creates a live, publicly accessible AI-crawlable website published specifically for your firm",
+      "GitLab — mirrored repository for redundancy, creating more places AI can crawl and cite",
+      "Hugging Face — where large language models actively learn from public data",
+      "Kaggle — a top public dataset hub widely recognized across the AI ecosystem",
+      "Codeberg — additional AI-crawlable static site presence with high trust signals",
     ],
     footer: {
       muted: "Most law firms aren't visible on any of these platforms.",
@@ -139,54 +177,35 @@ const FeaturesDetailSection = () => {
           <div className="text-center mb-16">
             <p className="text-primary font-medium mb-4">COMPLETE FEATURE LIST</p>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
-              Your{" "}
-              <span className="text-gradient-gold">AI Advantage</span>
+              Your <span className="text-gradient-gold">AI Advantage</span>
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Exposure across multiple highly-trusted platforms "AI bots crawl" means:</p>
-            <p>More qualified calls and consultations from AI recommendations;</p>
-<p>More cases from clients who found you first; and</p>
-<p>Zero coding—just activate and grow your firm.</p>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Exposure across multiple highly trusted platforms where AI crawls and learns means more qualified calls, more consultations, more cases — without coding.
+            </p>
           </div>
 
           {/* Feature sections */}
           <div className="space-y-6">
-            {sections.map((section) => {
-              const titleIsNew = section.title.startsWith("__NEW__");
-              const sectionTitle = titleIsNew ? section.title.replace("__NEW__", "") : section.title;
-              return (
+            {sections.map((section) => (
               <div
                 key={section.title}
                 className="bg-gradient-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/20 transition-all duration-300"
               >
-                <h3 className="font-display text-xl md:text-2xl font-bold mb-2 flex items-center flex-wrap gap-3">
-                  {titleIsNew && (
-                    <span className="inline-block px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wider bg-primary text-primary-foreground">
-                      New
-                    </span>
-                  )}
-                  <span className="text-gradient-gold">{sectionTitle}</span>
+                <h3 className="font-display text-xl md:text-2xl font-bold mb-2">
+                  <span className="text-gradient-gold">{section.title}</span>
                 </h3>
+
                 <p className="text-muted-foreground mb-5">{section.subtitle}</p>
+
                 <ul className="space-y-2.5">
-                  {section.items.map((item) => {
-                    const isNew = item.startsWith("__NEW__");
-                    const text = isNew ? item.replace("__NEW__", "") : item;
-                    return (
-                      <li key={item} className="flex items-start gap-3">
-                        <Check className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
-                        <span className="text-sm text-foreground/90">
-                          {isNew && (
-                            <span className="inline-block mr-2 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-primary text-primary-foreground align-middle">
-                              New
-                            </span>
-                          )}
-                          {text}
-                        </span>
-                      </li>
-                    );
-                  })}
+                  {section.items.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <Check className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <span className="text-sm text-foreground/90">{item}</span>
+                    </li>
+                  ))}
                 </ul>
+
                 {section.footer && (
                   <div className="mt-6 pt-5 border-t border-border/50 text-center">
                     <p className="text-sm text-muted-foreground mb-1">{section.footer.muted}</p>
@@ -196,8 +215,7 @@ const FeaturesDetailSection = () => {
                   </div>
                 )}
               </div>
-              );
-            })}
+            ))}
           </div>
 
           {/* No coding required banner */}
@@ -207,15 +225,20 @@ const FeaturesDetailSection = () => {
                 <Shield className="w-7 h-7 text-primary" />
               </div>
               <div>
-                <h3 className="font-display text-xl font-semibold mb-1">Zero Technical Skills Required</h3>
+                <h3 className="font-display text-xl font-semibold mb-1">
+                  Zero Technical Skills Required
+                </h3>
                 <p className="text-muted-foreground">
                   All automations are pre-built and ready to deploy.
                 </p>
               </div>
             </div>
+
             <div className="text-center md:text-right">
               <p className="text-sm text-muted-foreground">Just complete your profile and</p>
-              <p className="font-display text-lg font-semibold text-primary">Everything runs automatically</p>
+              <p className="font-display text-lg font-semibold text-primary">
+                Everything runs automatically
+              </p>
             </div>
           </div>
         </div>
