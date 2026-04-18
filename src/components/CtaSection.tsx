@@ -46,6 +46,7 @@ const CtaSection = () => {
                 <p className="text-sm text-muted-foreground">AI-Ready Launch</p>
               </div>
             </div>
+
             <div className="flex items-center gap-3">
               <Clock className="w-6 h-6 text-primary" />
               <div className="text-left">
@@ -53,6 +54,7 @@ const CtaSection = () => {
                 <p className="text-sm text-muted-foreground">Automated Referrals</p>
               </div>
             </div>
+
             <div className="flex items-center gap-3">
               <DollarSign className="w-6 h-6 text-primary" />
               <div className="text-left">
@@ -68,10 +70,12 @@ const CtaSection = () => {
               Start Getting AI Referrals Now
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
+
             <p className="text-sm text-muted-foreground">
               More calls. More consultations. More cases.
             </p>
           </div>
+        </div>
       </div>
     </section>
   );
