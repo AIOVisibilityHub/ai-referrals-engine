@@ -45,7 +45,7 @@ const HeroSection = () => {
             83% of prospects now ask AI tools like ChatGPT, Perplexity AI, and Google AI Overviews before choosing a lawyer. They’re asking:
 “I was injured in a car accident and it wasn’t my fault… who do I call?”{" "}
             <span className="text-foreground font-medium">
-              👉 We position your firm as the answer through case-type + location authority mapping.
+              👉 We position your firm as the answer through case-type + location authority mapping. <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>Powered by our AI Referrals Hub™  Use it yourself or have us handle everything for you.{" "}
             </span>
           </p>
 
