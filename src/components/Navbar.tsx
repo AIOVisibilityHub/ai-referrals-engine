@@ -25,7 +25,7 @@ const Navbar = () => {
       AI Referrals Hub™
     </span>
     <span className="text-xs text-muted-foreground hidden md:block">
-      The only system engineered to turn AI searches into real-world referrals—24/7.
+      Built to structure, publish, and reinforce your authority.
     </span>
   </div>
 </div>
