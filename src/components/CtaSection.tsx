@@ -34,7 +34,7 @@ const CtaSection = () => {
           </h2>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            While your competitors wonder how to get in AI search answer engines, you'll have a 24/7 AI referral system working for you around the clock.
+            Your 24/7 AI referral system starts working the moment you launch.
           </p>
 
           {/* Stats row */}
