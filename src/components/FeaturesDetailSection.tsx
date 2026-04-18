@@ -139,13 +139,14 @@ const FeaturesDetailSection = () => {
           <div className="text-center mb-16">
             <p className="text-primary font-medium mb-4">COMPLETE FEATURE LIST</p>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
-              Everything You Get with{" "}
-              <span className="text-gradient-gold">AI Referrals Hub™</span>
+              What AI Referrals Hub™{" "}
+              <span className="text-gradient-gold">Delivers</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              More qualified calls and consultations from AI recommendations.</p>
-<p>More cases from clients who found you first in AI search.</p>
-<p>Zero coding or manual work—just activate and grow.</p>
+              Exposure across multiple highly-trusted platforms AI bots crawl for information means:</p>
+            <p>More AI-driven calls and consultations;</p>
+<p>More cases from top-of-search visibility; and</p>
+<p>Fully automated, no coding required.</p>
           </div>
 
           {/* Feature sections */}
