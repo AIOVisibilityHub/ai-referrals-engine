@@ -12,8 +12,8 @@ const Footer = () => {
                 <Scale className="w-5 h-5 text-primary-foreground" />
               </div>
               <div>
-                <p className="font-display font-bold">AI Referrals Hub</p>
-                <p className="text-xs text-muted-foreground">Powered by n8n Technology</p>
+                <p className="font-display font-bold">AI Referrals Hub™</p>
+                <p className="text-xs text-muted-foreground">Built to structure, publish, and reinforce your authority so AI platforms confidently recommend you.</p>
               </div>
             </div>
 
@@ -21,7 +21,7 @@ const Footer = () => {
 
           <div className="mt-8 pt-8 border-t border-border/50 text-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} AI Referrals Hub. All rights reserved.
+              © {new Date().getFullYear()} AI Referrals Hub™. All rights reserved.
             </p>
           </div>
         </div>
