@@ -42,7 +42,7 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            83% of prospects now ask AI tools like ChatGPT, Perplexity AI, and Google AI Overviews questions like “I was injured in a car accident… who do I call?”{" "}
+            83% of prospects now ask AI tools like ChatGPT, Perplexity AI, and Google AI Overviews questions like <i>“I was injured in a car accident… who do I call?”</i>{" "}
             <span className="text-foreground font-medium">
               <br></br>👉 AI Referrals Hub™ positions your firm as the answer through "case-type + location" authority mapping  — DIY or we do it for you — Watch the demo below.
             </span>
@@ -73,7 +73,7 @@ const HeroSection = () => {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in" style={{ animationDelay: "0.4s" }}>
             <Button variant="gold" size="xl" onClick={scrollToPricing} className="group">
               <Zap className="w-5 h-5" />
-              Start Getting AI Referrals Now
+              Launch My AI Referral System
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <p className="text-sm text-muted-foreground">
