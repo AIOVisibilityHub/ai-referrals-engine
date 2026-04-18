@@ -21,10 +21,10 @@ const pricingTiers = [
       "Hundreds-to-thousands of schemas generated from your URL",
       "Multi-platform publishing to GitHub, GitHub Pages, GitLab, Hugging Face, Kaggle, Codeberg",
       "Perplexity-powered FAQ research per case type + city",
-      "Unanswered Q&A discovery for Google AI Overviews, Snippets and for training LLMs/answer engines",
+      "Unanswered Q&A discovery for AI Overviews & Answer Engines",
       "Citation-ready help articles per case type + city mapping",
       "Custom topic help article generator",
-      "Testimonial discovery across Avvo, Google, Yelp and Facebook",
+      "Testimonial discovery across major platforms",
       "Per-page AI optimization (JSON-LD, breadcrumbs, meta tags)",
       "14-tool Authority Builder Suite",
       "HTML FAQ/Q&A page generator",
@@ -89,15 +89,19 @@ const PricingSection = () => {
               DIY or <span className="text-gradient-gold">We Manage It</span>
             </h2>
 
+            {/* Main line (muted) */}
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Run AI Referrals Hub™ yourself, or let our team handle everything.
               Either way, you get more AI-driven calls and cases.
             </p>
 
-            <p className="text-sm text-muted-foreground mt-4 max-w-2xl mx-auto">
-              Most firms spend $2,000–$5,000 per month on agencies.
+            {/* 🔥 Contrast line (WHITE + emphasis) */}
+            <p className="text-base text-foreground mt-4 max-w-2xl mx-auto leading-relaxed">
+              Most firms spend{" "}
+              <span className="font-semibold">$2,000–$5,000 per month</span> on agencies.
               <br />
-              With AI Referrals Hub™, you get a full year of AI visibility for less than the cost of one month.
+              With AI Referrals Hub™, you get a{" "}
+              <span className="font-semibold">full year of AI visibility</span> for less than the cost of one month.
             </p>
           </div>
 
