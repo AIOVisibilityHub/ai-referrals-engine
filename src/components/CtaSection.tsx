@@ -29,8 +29,8 @@ const CtaSection = () => {
 
           {/* Main headline */}
           <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Be the Answer AI{" "}
-            <span className="text-gradient-gold">Recommends in 2026</span>
+            Be the Answer{" "}
+            <span className="text-gradient-gold">AI Recommends in 2026 & Beyond</span>
           </h2>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
