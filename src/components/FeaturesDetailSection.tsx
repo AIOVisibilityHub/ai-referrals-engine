@@ -1,72 +1,108 @@
-import { 
-  Code2, 
-  FileText, 
-  Brain, 
-  Award, 
-  Settings, 
-  MessageSquare, 
-  Bot, 
-  Globe, 
-  BookOpen, 
-  BarChart, 
-  Rocket,
-  Shield
-} from "lucide-react";
+import { Check, Shield } from "lucide-react";
 
-const featureCategories = [
+const sections = [
   {
-    icon: Code2,
-    title: "Structured Data Generators",
-    count: 14,
-    items: ["Organization Schema", "Local Business Schema", "Service Schema", "Product Schema", "FAQ Schema", "Review Schema", "Team/Staff Schema", "Location Schema", "And 6 more..."],
+    title: "Core Schema Generation",
+    subtitle: "Your firm's complete AI visibility foundation — built automatically from your URL and published where AI systems crawl, train and learn.",
+    items: [
+      "Hundreds to thousands of structured schema files specific to your practice areas, case types and locations",
+      "Sitemap, robots.txt, LLM context files and AI plugin JSON — everything AI needs to crawl and understand your firm",
+      "Knowledge graph with cross-linked entities so AI can navigate your firm's complete expertise",
+      "Citation-ready LLM source blocks built specifically for the RAG systems that power ChatGPT, Perplexity and Google AI",
+      "MD + YAML entity pages",
+      "Long-form LLM narrative engineered for AI ingestion",
+    ],
   },
   {
-    icon: FileText,
-    title: "LLM Ingestion Files",
-    count: 12,
-    items: ["LLM Data Capsule", "JSON Bundle", "YAML Bundle", "JSONL Training File", "Custom QnA Dataset", "Knowledge Pack Builder"],
+    title: "Perplexity-Powered FAQ Research",
+    subtitle: "Real questions. Real cities. Real case types. Generated from what people are actually asking right now.",
+    items: [
+      "Hundreds of FAQ schemas researched by Perplexity — based on real questions people ask about your specific case types in your specific cities",
+      "FAQPage markup specifically formatted for Google AI Overviews and featured snippets",
+      "Expandable at any time — add new cities, new case types and generate additional FAQs as your firm grows",
+    ],
   },
   {
-    icon: Brain,
-    title: "Content Intelligence",
-    count: 9,
-    items: ["AI FAQ Generator", "AI Rewrite & Improve", "Content Expansion", "Pain Points Generator", "Featured Snippet Builder"],
+    title: "Unanswered Q&A Discovery",
+    subtitle: "The questions AI answer engines can't fully answer yet — and your firm can own.",
+    items: [
+      "Uses Perplexity to find specific unanswered questions qualifying for Google AI Overviews and featured snippets",
+      "Generates QAPage schemas separate from FAQs for maximum search coverage",
+      "Puts your firm's answers in the gaps competitors haven't found yet",
+    ],
   },
   {
-    icon: Award,
-    title: "Authority Content Tools",
-    count: 6,
-    items: ["Article Summarizer", "Help Articles Generator", "Topic Expansion Tool", "Entity Expertise Builder", "Content Gap Analyzer"],
+    title: "Citation-Ready Help Articles",
+    subtitle: "Engineered to get cited — not ignored.",
+    items: [
+      "Help articles generated per case type using Perplexity research — ~400 words, specifically sized to qualify for Google AI Overviews, featured snippets and AI citations",
+      "Custom topic generator — enter any practice area, niche case type or local issue and generate targeted help articles on demand",
+      "Every article structured so AI systems can pull from it, cite it and recommend it when answering client questions",
+    ],
   },
   {
-    icon: Settings,
-    title: "Automation Engine",
-    count: 22,
-    items: ["Project Workspace", "File Structure Creator", "Auto Refresh Logic", "Search Engine Notifier", "Sync Automation", "Full Rebuild Tools"],
+    title: "Testimonial Discovery and Schema",
+    subtitle: "Your reputation — structured so AI can trust and cite it.",
+    items: [
+      "Perplexity crawls Avvo, Google, Yelp, Facebook and more to surface existing reviews about your firm",
+      "Upload your own testimonials directly into structured review schema",
+      "All formatted as trusted social proof signals AI systems recognize when evaluating which firm to recommend",
+    ],
   },
   {
-    icon: Globe,
-    title: "AI Website Builders",
-    count: 10,
-    items: ["Homepage Builder", "About Page Builder", "Services Page Builder", "FAQ Page Builder", "Team Page Builder", "Contact Builder"],
+    title: "Per-Page Crawl and Audit Engine",
+    subtitle: "AI visibility down to every single page of your website.",
+    items: [
+      "Enter any page URL — instantly generates JSON-LD, AI citations, breadcrumbs and meta tags for that specific page",
+      "Ensures every page of your website is AI-readable, not just your homepage",
+      "Copy and paste output directly into your page header — no developer needed",
+    ],
   },
   {
-    icon: BookOpen,
-    title: "Knowledge Packs",
-    count: 15,
-    items: ["Business Pack", "Legal Pack", "Industry-Specific Files", "QnA Knowledge Files", "Glossary Files"],
+    title: "Analysis and Intelligence Suite",
+    subtitle: "Know exactly where your AI visibility gaps are — and how to fill them.",
+    items: [
+      "Visibility Gap Analysis — identifies untapped keywords, missing pages and AI visibility gaps based on your practice area and search trends",
+      "Missed Opportunities Analysis — finds what's missing across your FAQs, help articles and schema coverage",
+      "Pain Points Mapper — maps client pain points to solutions with objection handling specific to your case types",
+      "Content Gap Map — shows exactly what content AI systems are looking for that your firm hasn't provided yet",
+    ],
   },
   {
-    icon: BarChart,
-    title: "Authority Diagnostics",
-    count: 9,
-    items: ["AI Visibility Score", "FAQ Coverage Analyzer", "Topic Depth Checker", "Authority Heatmap", "Trust Signals Scorecard"],
+    title: "14-Tool Authority Builder Suite",
+    subtitle: "Everything AI needs to recognize your firm as the authority in your market.",
+    items: [
+      "AI Visibility Score — 0-100 score showing exactly where your firm stands across AI platforms",
+      "Competitor Gap Detector — shows authority gaps between your firm and competitors AI is currently recommending",
+      "Trust Signals Scorecard — evaluates and scores every trust signal AI systems use to evaluate your firm",
+      "Topic Expansion — topic clusters, subtopics and semantic coverage opportunities",
+      "Topic Depth Checker — evaluates topical coverage depth and gaps",
+      "Industry Knowledge File — industry-specific knowledge formatted for AI training",
+      "Legal Services Knowledge — legal services data structured for AI ingestion",
+      "Case Type Knowledge — case type classifications and details AI systems use to match clients to firms",
+      "Entity Expertise Builder — authority content about your expertise and credentials",
+      'Value Proposition Builder — your USPs, benefits and "why choose us" content structured for AI',
+      "Q&A Strength Builder — Q&A analysis and enhancement recommendations",
+      "Authority Signal Generator — E-E-A-T signals and authority markers",
+      "Reputation Metadata — business legitimacy and credential metadata",
+      "Long-Form LLM — extended narrative for deep AI ingestion",
+    ],
   },
   {
-    icon: Rocket,
-    title: "Authority Boost Engine",
-    count: 12,
-    items: ["Authority Signal Generator", "Multi-Location Snapshot", "Reputation Metadata", "Cross-Platform Integrity", "Full Authority Rebuild"],
+    title: "Your Firm Gets Published Across 6 AI-Crawlable Platforms Simultaneously",
+    subtitle: "(Mirrors Your Website for 7 Places to be Discovered) — In addition to your website schema files",
+    items: [
+      "GitHub — Most trusted data repository on the internet — heavily crawled by every major AI system",
+      "GitHub Pages — Creates a live publicly accessible AI-crawlable website published specifically for your firm",
+      "GitLab — Mirrored repository for redundancy — more places AI crawls means more citations",
+      "Hugging Face — Where large language models are actively trained — your firm's data lives where AI goes to learn",
+      "Kaggle — Owned by Google since 2017 — a standard source AI models consult for datasets, widely recognized as a top public dataset hub",
+      "Codeberg — For static site hosting via Codeberg Pages — indexed by Google, high trust signal, additional AI-crawlable web presence for your firm",
+    ],
+    footer: {
+      muted: "Most law firms aren't visible on any of these platforms.",
+      accent: "Your firm will be on all six — automatically.",
+    },
   },
 ];
 
@@ -74,7 +110,7 @@ const FeaturesDetailSection = () => {
   return (
     <section className="py-24 relative overflow-hidden bg-secondary/30">
       <div className="container px-4">
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-5xl mx-auto">
           {/* Section header */}
           <div className="text-center mb-16">
             <p className="text-primary font-medium mb-4">COMPLETE FEATURE LIST</p>
@@ -83,34 +119,37 @@ const FeaturesDetailSection = () => {
               <span className="text-gradient-gold">AI Referrals Hub</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              100+ pre-built automations across 11 categories. No coding required. Just complete your AI visibility profile and let the software work for you.
+              No coding required. Just complete your AI visibility profile and let the software work for you.
             </p>
           </div>
 
-          {/* Features grid */}
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            {featureCategories.map((category, index) => (
+          {/* Feature sections */}
+          <div className="space-y-6">
+            {sections.map((section) => (
               <div
-                key={category.title}
-                className="bg-gradient-card rounded-xl p-5 border border-border/50 hover:border-primary/20 transition-all duration-300"
+                key={section.title}
+                className="bg-gradient-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/20 transition-all duration-300"
               >
-                <div className="flex items-center gap-3 mb-3">
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <category.icon className="w-5 h-5 text-primary" />
-                  </div>
-                  <div>
-                    <h3 className="font-semibold text-sm">{category.title}</h3>
-                    <p className="text-xs text-primary">{category.count} tools</p>
-                  </div>
-                </div>
-                <ul className="space-y-1">
-                  {category.items.slice(0, 5).map((item) => (
-                    <li key={item} className="text-xs text-muted-foreground flex items-center gap-2">
-                      <div className="w-1 h-1 rounded-full bg-primary/50" />
-                      {item}
+                <h3 className="font-display text-xl md:text-2xl font-bold text-gradient-gold mb-2">
+                  {section.title}
+                </h3>
+                <p className="text-muted-foreground mb-5">{section.subtitle}</p>
+                <ul className="space-y-2.5">
+                  {section.items.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <Check className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                      <span className="text-sm text-foreground/90">{item}</span>
                     </li>
                   ))}
                 </ul>
+                {section.footer && (
+                  <div className="mt-6 pt-5 border-t border-border/50 text-center">
+                    <p className="text-sm text-muted-foreground mb-1">{section.footer.muted}</p>
+                    <p className="font-display text-base md:text-lg font-semibold text-primary">
+                      {section.footer.accent}
+                    </p>
+                  </div>
+                )}
               </div>
             ))}
           </div>
@@ -124,7 +163,7 @@ const FeaturesDetailSection = () => {
               <div>
                 <h3 className="font-display text-xl font-semibold mb-1">Zero Technical Skills Required</h3>
                 <p className="text-muted-foreground">
-                  Powered by n8n technology. All automations are pre-built and ready to deploy.
+                  All automations are pre-built and ready to deploy.
                 </p>
               </div>
             </div>
