@@ -83,10 +83,10 @@ const sections = [
     ],
   },
   {
-    title: "14-Tool Authority Builder Suite",
+    title: "15-Tool Authority Builder Suite",
     subtitle: "Everything AI needs to recognize your firm as the authority in your market.",
     items: [
-      "NEW! HTML Generator — download large ZIP files of schema JSON and instantly convert hundreds of FAQs, Q&As and help articles into ready-to-publish HTML pages with accordion-style open/close formatting you can drop straight into your website",
+      "__NEW__HTML Generator — download large ZIP files of schema JSON and instantly convert hundreds of FAQs, Q&As and help articles into ready-to-publish HTML pages with accordion-style open/close formatting you can drop straight into your website",
       "AI Visibility Score — 0-100 score showing exactly where your firm stands across AI platforms",
       "Competitor Gap Detector — shows authority gaps between your firm and competitors AI is currently recommending",
       "Trust Signals Scorecard — evaluates and scores every trust signal AI systems use to evaluate your firm",
@@ -150,12 +150,23 @@ const FeaturesDetailSection = () => {
                 </h3>
                 <p className="text-muted-foreground mb-5">{section.subtitle}</p>
                 <ul className="space-y-2.5">
-                  {section.items.map((item) => (
-                    <li key={item} className="flex items-start gap-3">
-                      <Check className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
-                      <span className="text-sm text-foreground/90">{item}</span>
-                    </li>
-                  ))}
+                  {section.items.map((item) => {
+                    const isNew = item.startsWith("__NEW__");
+                    const text = isNew ? item.replace("__NEW__", "") : item;
+                    return (
+                      <li key={item} className="flex items-start gap-3">
+                        <Check className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                        <span className="text-sm text-foreground/90">
+                          {isNew && (
+                            <span className="inline-block mr-2 px-2 py-0.5 rounded-md text-[10px] font-bold uppercase tracking-wider bg-primary text-primary-foreground align-middle">
+                              New
+                            </span>
+                          )}
+                          {text}
+                        </span>
+                      </li>
+                    );
+                  })}
                 </ul>
                 {section.footer && (
                   <div className="mt-6 pt-5 border-t border-border/50 text-center">
