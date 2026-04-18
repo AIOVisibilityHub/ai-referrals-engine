@@ -44,7 +44,7 @@ const HeroSection = () => {
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             83% of prospects now ask AI tools like ChatGPT, Perplexity AI, and Google AI Overviews questions like “I was injured in a car accident… who do I call?”{" "}
             <span className="text-foreground font-medium">
-              <br></br>👉 We position your firm as the answer through "case-type + location" authority mapping through the AI Referrals Hub™ — Watch the demo below.
+              <br></br>👉 AI Referrals Hub™ positions your firm as the answer through "case-type + location" authority mapping  — DIY or we do it for you — Watch the demo below.
             </span>
           </p>
 
