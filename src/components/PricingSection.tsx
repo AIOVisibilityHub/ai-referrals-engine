@@ -84,8 +84,8 @@ const PricingSection = () => {
               </span>
             </div>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
-              DIY Setup or{" "}
-              <span className="text-gradient-gold">Full-Service Launch</span>
+              DIY or{" "}
+              <span className="text-gradient-gold">We Manage It</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Run AI Referrals Hub™ yourself, or let our team handle everything. Either way, you get more AI-driven calls and cases.
