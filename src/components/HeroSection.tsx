@@ -42,7 +42,7 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            83% of prospects now ask ChatGPT, Perplexity & Google AI before making decisions.{" "}
+            83% of prospects now ask ChatGPT, Perplexity & Google AI before making legal decisions, like "I was injured in a car accident and it wasn't my fault, who do I call?"{" "}
             <span className="text-foreground font-medium">
               👉 Case-type + location authority mapping positions your firm to be the answer they find. The result? More calls.
 More consultations. More cases. That's M2C (Machine-to-Consumer) marketing powered by AI answer engines.
