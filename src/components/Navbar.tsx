@@ -27,8 +27,8 @@ const Navbar = () => {
             <a href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
               Pricing
             </a>
-            <a href="tel:2135375613" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-              (213) 537-5613
+            <a href="" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              Demo
             </a>
             <Button variant="gold" size="sm" onClick={scrollToPricing}>
               Get Started
