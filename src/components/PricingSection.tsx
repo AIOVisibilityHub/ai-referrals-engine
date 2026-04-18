@@ -13,7 +13,7 @@ const pricingTiers = [
     salePrice: 795,
     priceSuffix: "one-time",
     footnote: "Lifetime updates as AI platforms evolve",
-    ctaLabel: "GET THE SOFTWARE — $795",
+    ctaLabel: "Launch the AI Referrals Hub™ System",
     ctaUrl: "https://buy.stripe.com/bJe9ATeyP7On9yQ8fLcwg0r",
     badge: "Founding member pricing — will increase",
     features: [
@@ -45,7 +45,7 @@ const pricingTiers = [
     priceSuffix: "/year",
     popular: true,
     footnote: "Like getting 6 months free — saves you $3,000",
-    ctaLabel: "HAVE US DO IT — $2,995/year",
+    ctaLabel: "HAVE US DO EVERYTHING FOR YOU",
     ctaUrl: "https://buy.stripe.com/5kQ14n0HZ8Sr7qI9jPcwg02",
     badge: "Most popular among busy firms",
     features: [
