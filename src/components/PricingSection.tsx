@@ -27,6 +27,7 @@ const pricingTiers = [
       "Testimonial discovery across Avvo, Google, Yelp and Facebook",
       "Crawls each page of your website to add AI citation-ready content for LLMs: generates JSON-LD, breadcrumbs, and meta tags for that page",
       "14-tool Authority Builder Suite — AI-powered tools to build authority, trust signals, and AI visibility",
+      "New HTML FAQ/Q&A/help articles page generator from schema zip files",
       "Ongoing updates as AI platforms evolve",
     ],
   },
@@ -47,16 +48,16 @@ const pricingTiers = [
     badge: "Most popular among busy firms",
     features: [
       "We generate all schemas, FAQs, Q&A sets, help articles and authority content to qualify for Google's AI Overviews & Snippets, and AI Search / Answer Engine responses",
-      "Each month we build and expand on your FAQs, Q&A sets, help articles",
-      "We publish and maintain your presence across all 6 repositories & platforms",
-      "We publish or provide files for your website root directory, i.e. sitemaps, LLM files, robot files, Markdown + YAML entity files, knowledge graphs and LLM source blocks that are citation-ready text for RAG systems",
-      "For each page of your website, we generate AI citation-ready content for LLMs, i.e. schema JSON-LD, breadcrumbs, and meta tags so AI knows everything about that page",
+      "Each month we build on the last and expand on your visibility profile",
+      "We publish and maintain your presence across additional repositories & platforms",
+      "We install (or deliver) files for your website root directory, i.e. sitemaps, LLM files, robot files, Markdown + YAML entity files, knowledge graphs and LLM source blocks that are citation-ready text for RAG systems",
+      "We install on each page of your website (or provide code for) AI citation-ready content for LLMs, i.e. schema JSON-LD, breadcrumbs, and meta tags so AI knows everything about that page",
       "We provide an analysis of missed opportunities, visibility gaps, and pain points mapped to solutions — so you know exactly where to focus for maximum AI referrals",
-      "Monthly updates — Generate additional FAQs/QNAs/help articles, and add new cities, case types, attorneys added, if needed",
+      "Monthly updates — Generate additional FAQs/QNAs/help articles, and add new cities, case types, attorneys added if needed",
       "Ongoing content refresh every 30 days so AI stays confident referring you",
+      "Full Authority Builder Suite run and maintained for you",
       "Submission to Google, Bing and AI Search",
       "Priority support and dedicated account management",
-      "Full Authority Builder Suite run and maintained for you",
     ],
   },
 ];
@@ -85,7 +86,7 @@ const PricingSection = () => {
               <span className="text-gradient-gold">Have Us Do It For You</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Choose the AI Referrals Hub software and run it yourself, or let our team handle everything for you.
+              Choose to run AI Referrals Hub™ yourself, or let our team manage everything for you.
             </p>
           </div>
 
