@@ -117,7 +117,7 @@ const sections: Section[] = [
     ],
   },
   {
-    title: "BONUS 1: Instant AI Content Publisher™",
+    title: "BONUS 1 - Instant AI Content Publisher™",
     subtitle:
       "A separate standalone app that turns massive schema output into ready-to-publish pages in minutes.",
     items: [
@@ -128,7 +128,7 @@ const sections: Section[] = [
     ],
   },
   {
-    title: "BONUS 2: AI Freshness Engine™",
+    title: "BONUS 2 - AI Freshness Engine™",
     subtitle:
       "Keeps your firm current, visible, and continuously re-evaluated by AI systems.",
     items: [
@@ -139,7 +139,7 @@ const sections: Section[] = [
     ],
   },
   {
-    title: "BONUS 3: AI Indexing + Submission System™",
+    title: "BONUS 3 - AI Indexing + Submission System™",
     subtitle:
       "Gets your new content and updates discovered faster across search and AI platforms.",
     items: [
