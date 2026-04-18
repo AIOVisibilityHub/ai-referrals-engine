@@ -50,7 +50,7 @@ const sections = [
     ],
   },
   {
-    title: "Per-Page Crawl and Audit Engine",
+    title: "Per Page Crawl for Custom Code Insertion",
     subtitle: "AI visibility down to every single page of your website.",
     items: [
       "Enter any page URL — instantly generates JSON-LD, AI citations, breadcrumbs and meta tags for that specific page",
