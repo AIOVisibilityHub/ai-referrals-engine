@@ -10,8 +10,17 @@ const ProblemSection = () => {
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
               The World Has <span className="text-gradient-gold">Changed</span>
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Your future clients aren't just Googling anymore. They're asking AI for recommendations—and if you're not in those answers, you're invisible.
+<p className="text-lg text-muted-foreground max-w-2xl mx-auto space-y-4">
+  <span className="block">
+    Your future clients aren’t just Googling anymore—they’re asking AI who to call.
+    If you’re not in those answers, AI will recommend another lawyer.
+  </span>
+
+  <span className="block">
+    AI doesn’t guess—it recommends firms it can find, understand, and trust.
+    That means your information has to be structured, published, and reinforced across the platforms AI learns from.
+  </span>
+</p>
             </p>
           </div>
 
