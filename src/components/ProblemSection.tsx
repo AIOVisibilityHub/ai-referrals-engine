@@ -37,7 +37,7 @@ const ProblemSection = () => {
 
             <div className="mt-8 pt-8 border-t border-border/50 text-center">
               <p className="text-lg font-medium mb-2">
-                <span className="text-primary">40%</span> of prospects now consult AI before making decisions
+                <span className="text-primary">83%</span> of prospects now consult AI before making decisions
               </p>
               <p className="text-muted-foreground">
                 When they ask "Who should I hire?" — will AI recommend <span className="text-foreground">you</span>?

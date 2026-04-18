@@ -42,7 +42,7 @@ const HeroSection = () => {
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            40% of prospects now ask ChatGPT, Perplexity & Google AI before making decisions.{" "}
+            83% of prospects now ask ChatGPT, Perplexity & Google AI before making decisions.{" "}
             <span className="text-foreground font-medium">
               Position your firm to be the answer they find.
             </span>
