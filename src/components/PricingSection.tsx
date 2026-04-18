@@ -6,7 +6,7 @@ const pricingTiers = [
     id: "diy",
     name: "DIY — AI Referrals Hub™ System",
     icon: Zap,
-    tagline: "You or your team runs it. We back you up.",
+    tagline: "Best if you want to run the system yourself.",
     description:
       "Perfect if you want full control over your AI visibility profile.",
     originalPrice: 1495,
@@ -37,7 +37,7 @@ const pricingTiers = [
     id: "dfy",
     name: "Done For You — Full Annual Plan",
     icon: Trophy,
-    tagline: "We handle everything. You get the referrals.",
+    tagline: "Best if you want the referrals without managing the system.",
     description:
       "Perfect if you want results without touching the platform — our team runs everything for your firm.",
     originalPrice: 5995,
