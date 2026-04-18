@@ -32,7 +32,7 @@ const SolutionSection = () => {
               Your 24/7 <span className="text-gradient-gold">AI Referral System</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              AI Referrals Hub™ helps position your firm to be the answer AI recommends — without coding, complexity, or doing everything manually.
+              AI Referrals Hub™ helps you become the firm AI recommends — driving more calls, book more consultations, and land more cases.
             </p>
           </div>
 
