@@ -8,18 +8,17 @@ const ProblemSection = () => {
           {/* Section header */}
           <div className="text-center mb-16">
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
-              The World Has <span className="text-gradient-gold">Changed</span>
+              The Way Clients Find Lawyers <span className="text-gradient-gold">Has Changed</span>
             </h2>
 
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto space-y-4">
               <span className="block">
                 Your future clients aren’t just Googling anymore—they’re asking AI who to call.
-                If you’re not in those answers, AI will recommend another lawyer.
+                If you’re not firm isn't in the AI system's answers alrady, AI will recommend someone else.
               </span>
 
               <span className="block">
-                AI doesn’t guess—it recommends firms it can find, understand, and trust.
-                That means your information has to be structured, published, and reinforced across the platforms AI learns from.
+                AI tools don’t randomly pick lawyers. They pull from firms with clear, consistent, and credible information across the web. If your presence is incomplete, outdated, or hard to interpret because it is not machine-readable, you’re invisible in the moment it matters most.
               </span>
             </p>
           </div>
