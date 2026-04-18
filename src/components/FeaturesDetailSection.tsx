@@ -150,9 +150,9 @@ const sections: Section[] = [
     ],
   },
   {
-    title: "PLUS, Your Firm Gets Published Across 6 AI-Crawlable Platforms Simultaneously",
+    title: "PLUS, Your Firm Gets Published Across 6 AI-Crawlable Platforms",
     subtitle:
-      "(Mirrors Your Website for 7 Places to be Discovered) — in addition to your site's machine-readable files.",
+      "Practice Areas/Attorneys/Location schema files published in 7 Places to be Discovered — In Addition to Your Site's Machine-Readable Files.",
     items: [
       "GitHub — one of the most trusted public data repositories, heavily crawled by major AI systems",
       "GitHub Pages — creates a live, publicly accessible AI-crawlable website published specifically for your firm",
