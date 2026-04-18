@@ -3,21 +3,21 @@ import { Check, Cpu, Globe, Trophy } from "lucide-react";
 const features = [
   {
     icon: Globe,
-    title: "Get Found by AI",
+    title: "Get More Qualified Calls from AI Search",
     description:
-      "Position your firm where AI systems look for trusted answers before they recommend who to call.",
+      "Position your firm where people are already asking which lawyer to call.",
   },
   {
     icon: Cpu,
-    title: "Built for Real Searches",
+    title: "Target Real Client Queries",
     description:
-      "Target real case types, real cities, and real questions people ask AI before choosing a lawyer.",
+      "Focus on actual case types, cities, and questions people search before hiring.",
   },
   {
     icon: Trophy,
-    title: "Turn Visibility Into Referrals",
+    title: "Turn AI Discovery into New Cases",
     description:
-      "Show up as the answer AI recommends so you generate more calls, consultations, and cases.",
+      "Convert AI visibility into qualified calls, booked consultations, and signed cases.",
   },
 ];
 
@@ -32,7 +32,7 @@ const SolutionSection = () => {
               Your 24/7 <span className="text-gradient-gold">AI Referral System</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              AI Referrals Hub™ helps you become the firm AI recommends — driving more calls, book more consultations, and land more cases.
+              AI Referrals Hub™ helps you become the firm AI recommends — drive more calls, book more consultations, and land more cases.
             </p>
           </div>
 
@@ -59,7 +59,6 @@ const SolutionSection = () => {
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-muted-foreground">
               {[
                 "Real case types",
-                "Real cities",
                 "Real client questions",
                 "More calls and consultations",
               ].map((item) => (
