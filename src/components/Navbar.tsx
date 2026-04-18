@@ -15,11 +15,20 @@ const Navbar = () => {
       <div className="container px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-lg bg-gradient-gold flex items-center justify-center">
-              <Scale className="w-5 h-5 text-primary-foreground" />
-            </div>
-            <span className="font-display font-bold text-lg">AI Referrals Hub</span>
+<div className="flex items-center gap-3">
+  <div className="w-9 h-9 rounded-lg bg-gradient-gold flex items-center justify-center">
+    <Scale className="w-5 h-5 text-primary-foreground" />
+  </div>
+
+  <div className="flex flex-col leading-tight">
+    <span className="font-display font-bold text-lg">
+      AI Referrals Hub™
+    </span>
+    <span className="text-xs text-muted-foreground hidden md:block">
+      The only system engineered to turn AI searches into real-world referrals—24/7.
+    </span>
+  </div>
+</div>
           </div>
 
           {/* Desktop nav */}
