@@ -149,13 +149,21 @@ const FeaturesDetailSection = () => {
 
           {/* Feature sections */}
           <div className="space-y-6">
-            {sections.map((section) => (
+            {sections.map((section) => {
+              const titleIsNew = section.title.startsWith("__NEW__");
+              const sectionTitle = titleIsNew ? section.title.replace("__NEW__", "") : section.title;
+              return (
               <div
                 key={section.title}
                 className="bg-gradient-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/20 transition-all duration-300"
               >
-                <h3 className="font-display text-xl md:text-2xl font-bold text-gradient-gold mb-2">
-                  {section.title}
+                <h3 className="font-display text-xl md:text-2xl font-bold mb-2 flex items-center flex-wrap gap-3">
+                  {titleIsNew && (
+                    <span className="inline-block px-2.5 py-1 rounded-md text-xs font-bold uppercase tracking-wider bg-primary text-primary-foreground">
+                      New
+                    </span>
+                  )}
+                  <span className="text-gradient-gold">{sectionTitle}</span>
                 </h3>
                 <p className="text-muted-foreground mb-5">{section.subtitle}</p>
                 <ul className="space-y-2.5">
