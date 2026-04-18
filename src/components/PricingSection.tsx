@@ -6,16 +6,16 @@ const pricingTiers = [
     id: "diy",
     name: "DIY — AI Referrals Hub™ System",
     icon: Zap,
-    tagline: "Best if you want to run the system yourself.",
+    tagline: "Run it yourself for total control.",
     description:
-      "Perfect if you want full control over your AI visibility profile.",
+      "Get more AI-driven calls and cases while managing your visibility profile on your terms.",
     originalPrice: 1495,
     salePrice: 795,
     priceSuffix: "one-time",
     footnote: "Lifetime updates as AI platforms evolve",
-    ctaLabel: "Launch the AI Referrals Hub™ System",
+    ctaLabel: "Launch AI Referrals Hub™",
     ctaUrl: "https://buy.stripe.com/bJe9ATeyP7On9yQ8fLcwg0r",
-    badge: "Founding member pricing — will increase",
+    badge: "Founding Member Pricing — Limited to 25",
     features: [
       "Complete access to AI Referrals Hub system",
       "Hundreds-to-thousands of schemas generated from your URL",
@@ -37,17 +37,17 @@ const pricingTiers = [
     id: "dfy",
     name: "Done For You — Full Annual Plan",
     icon: Trophy,
-    tagline: "Best if you want the referrals without managing the system.",
+    tagline: "Hands-off positioning, managed by our team.",
     description:
-      "Perfect if you want results without touching the platform — our team runs everything for your firm.",
+      "We build and optimize your firm's AI visibility profile for maximum exposure.",
     originalPrice: 5995,
     salePrice: 2995,
     priceSuffix: "/year",
     popular: true,
     footnote: "Like getting 6 months free — saves you $3,000",
-    ctaLabel: "HAVE US DO EVERYTHING FOR YOU",
+    ctaLabel: "Let Us Handle It All",
     ctaUrl: "https://buy.stripe.com/5kQ14n0HZ8Sr7qI9jPcwg02",
-    badge: "Most popular among busy firms",
+    badge: "Founding Member Plan — Limited to 10 Firms",
     features: [
       "We generate all schemas, FAQs, Q&A sets, help articles and authority content to qualify for Google's AI Overviews & Snippets, and AI Search / Answer Engine responses",
       "Each month we build on the last and expand on your visibility profile",
@@ -88,8 +88,11 @@ const PricingSection = () => {
               <span className="text-gradient-gold">We Manage It</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Run AI Referrals Hub™ yourself, or let our team handle everything. Either way, you get more AI-driven calls and cases.
-            </p>
+<p className="text-sm text-muted-foreground mt-4 max-w-2xl mx-auto">
+  Most firms spend $2,000–$5,000 per month on agencies.
+  <br />
+  With AI Referrals Hub™, you get a full year of AI visibility for less than the cost of one month.
+</p>
           </div>
 
           {/* Pricing cards */}
