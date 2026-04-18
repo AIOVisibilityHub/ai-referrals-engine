@@ -3,7 +3,7 @@ import { Check, Cpu, Globe, Trophy } from "lucide-react";
 const features = [
   {
     icon: Globe,
-    title: "Get More Qualified Calls from AI Search",
+    title: "Get Qualified Calls from AI Search",
     description:
       "Position your firm where people are already asking which lawyer to call.",
   },
