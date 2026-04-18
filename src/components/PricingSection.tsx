@@ -88,13 +88,17 @@ const PricingSection = () => {
               <span className="text-gradient-gold">We Manage It</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+<p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+  Run AI Referrals Hub™ yourself, or let our team handle everything. Either way, you get more AI-driven calls and cases.
+</p>
+
 <p className="text-sm text-muted-foreground mt-4 max-w-2xl mx-auto">
   Most firms spend $2,000–$5,000 per month on agencies.
   <br />
   With AI Referrals Hub™, you get a full year of AI visibility for less than the cost of one month.
 </p>
-          </div>
-
+            </div>
+            
           {/* Pricing cards */}
           <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
             {pricingTiers.map((tier) => (
