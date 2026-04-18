@@ -57,7 +57,7 @@ const CtaSection = () => {
               <DollarSign className="w-6 h-6 text-primary" />
               <div className="text-left">
                 <p className="font-display text-2xl font-bold">50%</p>
-                <p className="text-sm text-muted-foreground">Holiday Discount</p>
+                <p className="text-sm text-muted-foreground">Launch Discount</p>
               </div>
             </div>
           </div>
