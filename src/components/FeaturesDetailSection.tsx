@@ -3,7 +3,7 @@ import { Check, Shield } from "lucide-react";
 const sections = [
   {
     title: "Core Schema Generation",
-    subtitle: "Your firm's complete AI visibility foundation — built automatically from your URL and published where AI systems crawl, train and learn.",
+    subtitle: "Your firm's complete AI visibility foundation in machine-readable formatting — built automatically from your URL and published where AI systems crawl, train and learn.",
     items: [
       "Hundreds to thousands of structured schema files specific to your practice areas, case types and locations",
       "Sitemap, robots.txt, LLM context files and AI plugin JSON — everything AI needs to crawl and understand your firm",
@@ -17,13 +17,13 @@ const sections = [
     title: "Perplexity-Powered FAQ Research",
     subtitle: "Real questions. Real cities. Real case types. Generated from what people are actually asking right now.",
     items: [
-      "Hundreds of FAQ schemas researched by Perplexity — based on real questions people ask about your specific case types in your specific cities",
+      "Hundreds of FAQ schemas researched by Perplexity — based on real questions people ask about specific case types in your specific cities",
       "FAQPage markup specifically formatted for Google AI Overviews and featured snippets",
       "Expandable at any time — add new cities, new case types and generate additional FAQs as your firm grows",
     ],
   },
   {
-    title: "Unanswered AI Overviews & Snippets",
+    title: "Unanswered AI Overviews QNA & Snippets",
     subtitle: "The questions AI answer engines can't fully answer yet — and your firm can own.",
     items: [
       "Uses Perplexity to find specific unanswered questions qualifying for Google AI Overviews and featured snippets",
@@ -103,8 +103,8 @@ const sections = [
     ],
   },
   {
-    title: "__NEW__HTML Generator",
-    subtitle: "A separate, standalone app inside AI Referrals Hub — turn your schema output into ready-to-publish webpages in minutes.",
+    title: "NEW: HTML Generator",
+    subtitle: "A separate, standalone app for AI Referrals Hub — turns massive schema output into ready-to-publish webpages in minutes.",
     items: [
       "Download large ZIP files of schema JSON files generated across your entire firm",
       "Instantly convert hundreds of FAQs, Q&As and help articles into ready-to-publish HTML webpages",
@@ -114,7 +114,7 @@ const sections = [
   },
   {
     title: "Your Firm Gets Published Across 6 AI-Crawlable Platforms Simultaneously",
-    subtitle: "(Mirrors Your Website for 7 Places to be Discovered) — In addition to your website schema files",
+    subtitle: "(Mirrors Your Website for 7 Places to be Discovered) — In addition to your site's machine-readable files",
     items: [
       "GitHub — Most trusted data repository on the internet — heavily crawled by every major AI system",
       "GitHub Pages — Creates a live publicly accessible AI-crawlable website published specifically for your firm",
