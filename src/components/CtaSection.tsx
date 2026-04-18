@@ -72,13 +72,6 @@ const CtaSection = () => {
               More calls. More consultations. More cases.
             </p>
           </div>
-
-          {/* Phone CTA */}
-          <div className="mt-12 pt-8 border-t border-border/50">
-            <p className="text-muted-foreground mb-4">
-        
-          </div>
-        </div>
       </div>
     </section>
   );
