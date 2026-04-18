@@ -194,7 +194,8 @@ const FeaturesDetailSection = () => {
                   </div>
                 )}
               </div>
-            ))}
+              );
+            })}
           </div>
 
           {/* No coding required banner */}
