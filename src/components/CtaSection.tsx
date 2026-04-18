@@ -76,14 +76,7 @@ const CtaSection = () => {
           {/* Phone CTA */}
           <div className="mt-12 pt-8 border-t border-border/50">
             <p className="text-muted-foreground mb-4">
-              Have questions? Speak with our team.
-            </p>
-            <a
-              href="tel:2135375613"
-              className="inline-flex items-center gap-2 text-xl font-display font-semibold text-primary hover:text-primary/80 transition-colors"
-            >
-              Call (213) 537-5613
-            </a>
+        
           </div>
         </div>
       </div>
