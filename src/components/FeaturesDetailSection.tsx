@@ -59,6 +59,20 @@ const sections = [
     ],
   },
   {
+    title: "Website Root Files for LLMs and AI Systems",
+    subtitle: "The foundational files AI crawlers and answer engines look for first — generated and ready to drop into your site's root directory.",
+    items: [
+      "sitemap.xml — tells Google and AI crawlers exactly which pages to index across your entire firm",
+      "robots.txt — controls crawler access and signals which content AI systems are welcome to ingest",
+      "humans.txt — team and credit metadata that adds authenticity signals AI systems use for trust scoring",
+      "Main Organization schema — full business identity, every city you serve, complete firm overview",
+      "LegalService schema — every practice area and service line, mapped to all of your office locations",
+      "Attorney profiles schema — bios, bar numbers and credentials for every attorney at your firm",
+      "Locations schema — every office location with geo coordinates AI uses for local recommendations",
+      "/.well-known/security.txt — security contact metadata that signals legitimacy to AI trust systems",
+    ],
+  },
+  {
     title: "Analysis and Intelligence Suite",
     subtitle: "Know exactly where your AI visibility gaps are — and how to fill them.",
     items: [
