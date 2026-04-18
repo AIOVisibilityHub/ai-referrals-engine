@@ -30,11 +30,11 @@ const CtaSection = () => {
           {/* Main headline */}
           <h2 className="font-display text-3xl md:text-5xl lg:text-6xl font-bold mb-6">
             Be the Answer{" "}
-            <span className="text-gradient-gold">AI Recommends in 2026 & Beyond</span>
+            <span className="text-gradient-gold">AI Recommends</span>
           </h2>
 
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
-            Your 24/7 AI referral system starts working the moment you launch.
+            Start getting calls and consultations from AI—the moment you launch.
           </p>
 
           {/* Stats row */}
@@ -69,14 +69,14 @@ const CtaSection = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <p className="text-sm text-muted-foreground">
-              One-time purchase • Fully Automated
+              More calls. More consultations. More cases.
             </p>
           </div>
 
           {/* Phone CTA */}
           <div className="mt-12 pt-8 border-t border-border/50">
             <p className="text-muted-foreground mb-4">
-              Want us to increase your AI visibility? Increase conversions? Double your AI referrals each month? Our Done-for-You services will compound our efforts month-after-month so answer engines will begin referring your services.
+              Have questions? Speak with our team.
             </p>
             <a
               href="tel:2135375613"
