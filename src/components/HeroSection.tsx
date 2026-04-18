@@ -37,14 +37,15 @@ const HeroSection = () => {
             Get{" "}
             <span className="text-gradient-gold">AI-Powered Referrals</span>
             <br />
-            24/7 through MTC (Machine to Consumer) Marketing
+            24/7 through MTC (Machine-to-Consumer) Marketing
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto mb-8 animate-fade-in" style={{ animationDelay: "0.2s" }}>
             83% of prospects now ask ChatGPT, Perplexity & Google AI before making decisions.{" "}
             <span className="text-foreground font-medium">
-              Position your firm to be the answer they find.
+              👉 Case-type + location authority mapping positions your firm to be the answer they find. We handle everything for you. The result? More calls.
+More consultations. More cases. That's M2C (Machine-to-Consumer) marketing powered by AI answer engines.
             </span>
           </p>
 
