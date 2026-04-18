@@ -22,14 +22,14 @@ const pricingTiers = [
       "Multi-platform publishing to GitHub, GitHub Pages, GitLab, Hugging Face, Kaggle, Codeberg",
       "Perplexity-powered FAQ research per case type + city",
       "Unanswered Q&A discovery for Google AI Overviews, Snippets and for training LLMs/answer engines",
-      "Citation-ready help articles per case type + city mapping that qualify for Google AI Overviews, Snippets & AI Answer Engines",
+      "Citation-ready help articles per case type + city mapping",
       "Custom topic help article generator",
       "Testimonial discovery across Avvo, Google, Yelp and Facebook",
-      "Crawls each page of your website to customize AI citation-ready content for LLMs: generates JSON-LD, breadcrumbs, and meta tags for that page",
-      "14-tool Authority Builder Suite — AI-powered tools to build authority, trust signals, and AI visibility",
-      "New HTML FAQ/Q&A/help articles page generator from schema zip files",
-      "Content refresh every 30 days so AI stays confident referring you",
-      "Auto submission to Google, Bing and AI Search upon updates",
+      "Per-page AI optimization (JSON-LD, breadcrumbs, meta tags)",
+      "14-tool Authority Builder Suite",
+      "HTML FAQ/Q&A page generator",
+      "Content refresh every 30 days",
+      "Auto submission to Google, Bing and AI Search",
       "Ongoing updates as AI platforms evolve",
     ],
   },
@@ -49,15 +49,15 @@ const pricingTiers = [
     ctaUrl: "https://buy.stripe.com/5kQ14n0HZ8Sr7qI9jPcwg02",
     badge: "Founding Member Plan — Limited to 10 Firms",
     features: [
-      "We generate all schemas, FAQs, Q&A sets, help articles and authority content to qualify for Google's AI Overviews & Snippets, and AI Search / Answer Engine responses",
-      "Each month we build on the last and expand on your visibility profile",
-      "We publish and maintain your presence across additional repositories & platforms",
-      "We install (or deliver) files for your website root directory, i.e. sitemaps, LLM files, robot files, Markdown + YAML entity files, knowledge graphs and LLM source blocks that are citation-ready text for RAG systems",
-      "We install on each page of your website (or provide code for) AI citation-ready content for LLMs, i.e. schema JSON-LD, breadcrumbs, and meta tags so AI knows everything about that page",
-      "We provide an analysis of missed opportunities, visibility gaps, and pain points mapped to solutions — so you know exactly where to focus for maximum AI referrals",
-      "Monthly updates — Generate additional FAQs/QNAs/help articles, and add new cities, case types, attorneys added if needed",
-      "Ongoing content refresh every 30 days so AI stays confident referring you",
-      "Full Authority Builder Suite run and maintained for you",
+      "We generate all schemas, FAQs, Q&A sets, help articles and authority content",
+      "Monthly expansion of your AI visibility profile",
+      "Publishing across multiple AI-crawlable platforms",
+      "Root file setup (sitemaps, LLM files, robots, knowledge graphs)",
+      "Per-page AI optimization (JSON-LD, breadcrumbs, meta tags)",
+      "Visibility gap and opportunity analysis",
+      "Monthly content updates (FAQs, Q&A, articles, locations)",
+      "Ongoing content refresh every 30 days",
+      "Full Authority Builder Suite managed for you",
       "Submission to Google, Bing and AI Search",
       "Priority support and dedicated account management",
     ],
@@ -67,14 +67,15 @@ const pricingTiers = [
 const PricingSection = () => {
   return (
     <section id="pricing" className="py-24 relative overflow-hidden">
-      {/* Background glow */}
+      {/* Background */}
       <div className="absolute inset-0">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-primary/5 rounded-full blur-3xl" />
       </div>
 
       <div className="container px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
-          {/* Section header */}
+
+          {/* Header */}
           <div className="text-center mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-background/80 border border-primary/30 mb-6">
               <Zap className="w-4 h-4 text-primary" />
@@ -83,23 +84,24 @@ const PricingSection = () => {
                 <span className="text-primary">to Get AI Referrals</span>
               </span>
             </div>
-            <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
-              DIY or{" "}
-              <span className="text-gradient-gold">We Manage It</span>
-            </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-<p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-  Run AI Referrals Hub™ yourself, or let our team handle everything. Either way, you get more AI-driven calls and cases.
-</p>
 
-<p className="text-sm text-muted-foreground mt-4 max-w-2xl mx-auto">
-  Most firms spend $2,000–$5,000 per month on agencies.
-  <br />
-  With AI Referrals Hub™, you get a full year of AI visibility for less than the cost of one month.
-</p>
-            </div>
-            
-          {/* Pricing cards */}
+            <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
+              DIY or <span className="text-gradient-gold">We Manage It</span>
+            </h2>
+
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Run AI Referrals Hub™ yourself, or let our team handle everything.
+              Either way, you get more AI-driven calls and cases.
+            </p>
+
+            <p className="text-sm text-muted-foreground mt-4 max-w-2xl mx-auto">
+              Most firms spend $2,000–$5,000 per month on agencies.
+              <br />
+              With AI Referrals Hub™, you get a full year of AI visibility for less than the cost of one month.
+            </p>
+          </div>
+
+          {/* Cards */}
           <div className="grid md:grid-cols-2 gap-6 lg:gap-8">
             {pricingTiers.map((tier) => (
               <div
@@ -109,41 +111,42 @@ const PricingSection = () => {
                 } overflow-hidden flex flex-col`}
               >
                 <div className="p-8 flex flex-col flex-1">
-                  {/* Icon and name */}
+
+                  {/* Title */}
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-gold-light flex items-center justify-center flex-shrink-0">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-primary to-gold-light flex items-center justify-center">
                       <tier.icon className="w-6 h-6 text-primary-foreground" />
                     </div>
                     <h3 className="font-display text-xl font-bold">{tier.name}</h3>
                   </div>
 
-                  <p className="font-semibold text-foreground mb-2">{tier.tagline}</p>
+                  <p className="font-semibold mb-2">{tier.tagline}</p>
                   <p className="text-sm text-muted-foreground mb-6">{tier.description}</p>
 
                   {/* Features */}
                   <ul className="space-y-3 mb-8 flex-1">
                     {tier.features.map((feature) => (
                       <li key={feature} className="flex items-start gap-3">
-                        <Check className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
-                        <span className="text-sm text-foreground">{feature}</span>
+                        <Check className="w-5 h-5 text-primary mt-0.5" />
+                        <span className="text-sm">{feature}</span>
                       </li>
                     ))}
                   </ul>
 
-                  {/* Pricing */}
+                  {/* Price */}
                   <div className="mb-2">
-                    <div className="flex items-baseline gap-2 mb-1">
-                      <span className="text-xl text-muted-foreground line-through">
-                        ${tier.originalPrice.toLocaleString()}
-                        {tier.priceSuffix === "/year" ? "/year" : ""}
-                      </span>
-                    </div>
-                    <div className="flex items-baseline gap-2">
-                      <span className="font-display text-5xl font-bold text-gradient-gold">
+                    <span className="text-xl line-through text-muted-foreground">
+                      ${tier.originalPrice.toLocaleString()}
+                      {tier.priceSuffix === "/year" ? "/year" : ""}
+                    </span>
+
+                    <div className="flex items-baseline gap-2 mt-1">
+                      <span className="text-5xl font-bold text-gradient-gold">
                         ${tier.salePrice.toLocaleString()}
                       </span>
-                      <span className="text-muted-foreground font-semibold">{tier.priceSuffix}</span>
+                      <span className="text-muted-foreground">{tier.priceSuffix}</span>
                     </div>
+
                     <p className="text-sm text-muted-foreground mt-2">{tier.footnote}</p>
                   </div>
 
@@ -153,21 +156,25 @@ const PricingSection = () => {
                       {tier.ctaLabel}
                     </Button>
                   </a>
-                  <p className="text-xs text-center text-muted-foreground mt-3">{tier.badge}</p>
+
+                  <p className="text-xs text-center text-muted-foreground mt-3">
+                    {tier.badge}
+                  </p>
                 </div>
               </div>
             ))}
           </div>
 
-          {/* Bottom urgency */}
+          {/* Footer */}
           <div className="mt-12 text-center">
             <p className="text-sm text-muted-foreground">
-              Questions? Call{" "}
+              Have questions?{" "}
               <a href="tel:2135375613" className="text-primary hover:underline font-semibold">
-                (213) 537-5613
+                Call (213) 537-5613
               </a>
             </p>
           </div>
+
         </div>
       </div>
     </section>
