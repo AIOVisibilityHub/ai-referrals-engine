@@ -14,11 +14,11 @@ const ProblemSection = () => {
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto space-y-4">
               <span className="block">
                 Your future clients aren’t just Googling anymore—they’re asking AI who to call.
-                If you’re not firm isn't in the AI system's answers alrady, AI will recommend someone else.
+                If you’re firm isn't showing up in those answers, someone else is.
               </span>
 
               <span className="block">
-                AI tools don’t randomly pick lawyers. They pull from firms with clear, consistent, and credible information across the web. If your presence is incomplete, outdated, and not machine-readable, you’re invisible in the moment it matters most.
+                AI tools don’t randomly pick lawyers. They pull from firms with clear, consistent, and credible information across the web. If your data is incomplete, outdated or not machine-readable, AIs can't understand you so you’re invisible in the moment it matters most.
               </span>
             </p>
           </div>
