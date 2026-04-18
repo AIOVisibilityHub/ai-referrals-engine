@@ -18,7 +18,7 @@ const ProblemSection = () => {
               </span>
 
               <span className="block">
-                AI tools don’t randomly pick lawyers. They pull from firms with clear, consistent, and credible information across the web. (If your data is incomplete, outdated or not machine-readable, AI systems can't understand you.)
+                AI tools don’t randomly pick lawyers. They pull from firms with clear, consistent, and credible information across the web. (If your data is incomplete, outdated or not machine-readable, AI can't understand you.)
               </span>
             </p>
           </div>
