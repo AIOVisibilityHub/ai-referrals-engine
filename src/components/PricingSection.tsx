@@ -28,6 +28,8 @@ const pricingTiers = [
       "Crawls each page of your website to customize AI citation-ready content for LLMs: generates JSON-LD, breadcrumbs, and meta tags for that page",
       "14-tool Authority Builder Suite — AI-powered tools to build authority, trust signals, and AI visibility",
       "New HTML FAQ/Q&A/help articles page generator from schema zip files",
+      "Content refresh every 30 days so AI stays confident referring you",
+      "Auto submission to Google, Bing and AI Search upon updates",
       "Ongoing updates as AI platforms evolve",
     ],
   },
