@@ -23,7 +23,7 @@ const sections = [
     ],
   },
   {
-    title: "Unanswered Q&A Discovery",
+    title: "Unanswered AI Overviews & Snippets",
     subtitle: "The questions AI answer engines can't fully answer yet — and your firm can own.",
     items: [
       "Uses Perplexity to find specific unanswered questions qualifying for Google AI Overviews and featured snippets",
