@@ -4,11 +4,11 @@ import { Check, Zap, Trophy } from "lucide-react";
 const pricingTiers = [
   {
     id: "diy",
-    name: "DIY — AI Referrals Hub Software",
+    name: "DIY — AI Referrals Hub™ System",
     icon: Zap,
     tagline: "You or your team runs it. We back you up.",
     description:
-      "Perfect if you have staff who can manage the platform or want full control over your AI visibility.",
+      "Perfect if you want full control over your AI visibility profile.",
     originalPrice: 1495,
     salePrice: 795,
     priceSuffix: "one-time",
@@ -17,15 +17,15 @@ const pricingTiers = [
     ctaUrl: "https://buy.stripe.com/bJe9ATeyP7On9yQ8fLcwg0r",
     badge: "Founding member pricing — will increase",
     features: [
-      "Complete access to AI Referrals Hub platform",
+      "Complete access to AI Referrals Hub system",
       "Hundreds-to-thousands of schemas generated from your URL",
       "Multi-platform publishing to GitHub, GitHub Pages, GitLab, Hugging Face, Kaggle, Codeberg",
       "Perplexity-powered FAQ research per case type + city",
-      "Unanswered Q&A discovery for Google AI Overviews",
-      "Citation-ready help articles per case type that qualify for Google AI Overviews & Snippets & AI Answer Engine responses",
+      "Unanswered Q&A discovery for Google AI Overviews, Snippets and for training LLMs/answer engines",
+      "Citation-ready help articles per case type + city mapping that qualify for Google AI Overviews, Snippets & AI Answer Engines",
       "Custom topic help article generator",
       "Testimonial discovery across Avvo, Google, Yelp and Facebook",
-      "Crawls each page of your website to add AI citation-ready content for LLMs: generates JSON-LD, breadcrumbs, and meta tags for that page",
+      "Crawls each page of your website to customize AI citation-ready content for LLMs: generates JSON-LD, breadcrumbs, and meta tags for that page",
       "14-tool Authority Builder Suite — AI-powered tools to build authority, trust signals, and AI visibility",
       "New HTML FAQ/Q&A/help articles page generator from schema zip files",
       "Ongoing updates as AI platforms evolve",
