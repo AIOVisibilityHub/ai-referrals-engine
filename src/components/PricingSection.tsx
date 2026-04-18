@@ -112,7 +112,7 @@ const PricingSection = () => {
               Most firms spend{" "}
               <span className="font-semibold">$2,000–$5,000 per month</span> on agencies.
               <br />
-              With AI Referrals Hub™, you get a{" "}
+              AI Referrals Hub™ gives you a{" "}
               <span className="font-semibold">full year of AI visibility</span> for less than the cost of one month.
             </p>
           </div>
