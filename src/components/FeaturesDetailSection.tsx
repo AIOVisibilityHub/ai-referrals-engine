@@ -32,7 +32,7 @@ const sections = [
     ],
   },
   {
-    title: "Citation-Ready Help Articles",
+    title: "Citation-Ready Help Articles + FAQ Hybrids",
     subtitle: "Engineered to get cited — not ignored.",
     items: [
       "Help articles generated per case type using Perplexity research — ~400 words, specifically sized to qualify for Google AI Overviews, featured snippets and AI citations",
