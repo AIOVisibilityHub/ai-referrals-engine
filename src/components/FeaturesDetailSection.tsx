@@ -149,22 +149,23 @@ const sections: Section[] = [
       "Runs automatically without manual submission work",
     ],
   },
-  {
-    title: "PLUS, Your Firm Gets Published Across 6 AI-Crawlable Platforms",
-    subtitle:
-      "Business Overview, Legal Services and Attorneys' Schema and FAQs and QNA datasets published in 6 Places to be Discovered — In Addition to Your Site's Machine-Readable Files.",
-    items: [
-      "GitHub — one of the most trusted public data repositories, heavily crawled by major AI systems",
-      "GitHub Pages — creates a live, publicly accessible AI-crawlable website published specifically for your firm",
-      "GitLab — mirrored repository for redundancy, creating more places AI can crawl and cite",
-      "Hugging Face — where large language models actively learn from public data",
-      "Kaggle — a top public dataset hub widely recognized across the AI ecosystem",
-      "Codeberg — additional AI-crawlable static site presence with high trust signals",
-    ],
-    footer: {
-      muted: "Most law firms aren't visible on any of these platforms.",
-      accent: "Your firm will be on all six — automatically.",
-    },
+ {
+  title: "Your Firm Gets Published Where AI Systems Crawl",
+  subtitle:
+    "AI doesn’t just look at your website. Your firm is positioned across multiple trusted platforms AI systems crawl, learn from, and use to decide who to recommend.",
+  items: [
+    "GitHub — one of the most trusted public data repositories, heavily crawled by major AI systems",
+    "GitHub Pages — creates a live, publicly accessible AI-crawlable website published specifically for your firm",
+    "GitLab — mirrored repository for redundancy, creating more places AI can find and reference your firm",
+    "Hugging Face — Where large language models are actively trained — your firm's data lives where AI goes to learn",
+    "Kaggle — Owned by Google since 2017 — a standard source AI models consult for datasets, widely recognized as a top public dataset hub",
+    "Codeberg — For static site hosting via Codeberg Pages — indexed by Google, high trust signal, additional AI-crawlable web presence for your firm",
+  ],
+  footer: {
+    muted: "Most law firms aren't visible on any of these platforms.",
+    accent: "Your firm will be — automatically.",
+  },
+}
   },
 ];
 
