@@ -149,23 +149,22 @@ const sections: Section[] = [
       "Runs automatically without manual submission work",
     ],
   },
- {
-  title: "Your Firm Gets Published Where AI Systems Crawl",
-  subtitle:
-    "AI doesn’t just look at your website. Your firm is positioned across multiple trusted platforms AI systems crawl, learn from, and use to decide who to recommend.",
-  items: [
-    "GitHub — one of the most trusted public data repositories, heavily crawled by major AI systems",
-    "GitHub Pages — creates a live, publicly accessible AI-crawlable website published specifically for your firm",
-    "GitLab — mirrored repository for redundancy, creating more places AI can find and reference your firm",
-    "Hugging Face — Where large language models are actively trained — your firm's data lives where AI goes to learn",
-    "Kaggle — Owned by Google since 2017 — a standard source AI models consult for datasets, widely recognized as a top public dataset hub",
-    "Codeberg — For static site hosting via Codeberg Pages — indexed by Google, high trust signal, additional AI-crawlable web presence for your firm",
-  ],
-  footer: {
-    muted: "Most law firms aren't visible on any of these platforms.",
-    accent: "Your firm will be — automatically.",
-  },
-}
+  {
+    title: "Your Firm Gets Published Where AI Systems Crawl",
+    subtitle:
+      "AI doesn’t just look at your website. Your firm is positioned across multiple trusted platforms AI systems crawl, learn from, and use to decide who to recommend.",
+    items: [
+      "GitHub — one of the most trusted public data repositories, heavily crawled by major AI systems",
+      "GitHub Pages — creates a live, publicly accessible AI-crawlable website published specifically for your firm",
+      "GitLab — mirrored repository for redundancy, creating more places AI can find and reference your firm",
+      "Hugging Face — Where large language models are actively trained — your firm's data lives where AI goes to learn",
+      "Kaggle — Owned by Google since 2017 — a standard source AI models consult for datasets, widely recognized as a top public dataset hub",
+      "Codeberg — For static site hosting via Codeberg Pages — indexed by Google, high trust signal, additional AI-crawlable web presence for your firm",
+    ],
+    footer: {
+      muted: "Most law firms aren't visible on any of these platforms.",
+      accent: "Your firm will be — automatically.",
+    },
   },
 ];
 
@@ -174,7 +173,7 @@ const FeaturesDetailSection = () => {
     <section className="py-24 relative overflow-hidden bg-secondary/30">
       <div className="container px-4">
         <div className="max-w-5xl mx-auto">
-          {/* Section header */}
+
           <div className="text-center mb-16">
             <p className="text-primary font-medium mb-4">COMPLETE FEATURE LIST</p>
             <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
@@ -185,13 +184,9 @@ const FeaturesDetailSection = () => {
             </p>
           </div>
 
-          {/* Feature sections */}
           <div className="space-y-6">
             {sections.map((section) => (
-              <div
-                key={section.title}
-                className="bg-gradient-card rounded-2xl p-6 md:p-8 border border-border/50 hover:border-primary/20 transition-all duration-300"
-              >
+              <div key={section.title} className="bg-gradient-card rounded-2xl p-6 md:p-8 border border-border/50">
                 <h3 className="font-display text-xl md:text-2xl font-bold mb-2">
                   <span className="text-gradient-gold">{section.title}</span>
                 </h3>
@@ -219,7 +214,6 @@ const FeaturesDetailSection = () => {
             ))}
           </div>
 
-          {/* No coding required banner */}
           <div className="mt-12 bg-gradient-card rounded-2xl p-8 border border-primary/20 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-4">
               <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center">
@@ -242,6 +236,7 @@ const FeaturesDetailSection = () => {
               </p>
             </div>
           </div>
+
         </div>
       </div>
     </section>
