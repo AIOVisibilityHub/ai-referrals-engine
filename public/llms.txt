@@ -1,0 +1,24 @@
+# AI Referrals Hub™
+
+AI Referrals Hub™ is a system designed to help law firms get found, understood, and recommended by AI systems.
+
+## Purpose
+This site contains AI-readable resources describing the AI Referrals Hub™ system, how it works, and how it helps law firms generate AI-powered referrals.
+
+## Core Resources
+- https://clients.aireferralshub.com/full-context.md
+- https://clients.aireferralshub.com/llms-full.txt
+- https://clients.aireferralshub.com/main-organization.json
+- https://clients.aireferralshub.com/service.schema.json
+- https://clients.aireferralshub.com/locations.schema.json
+- https://clients.aireferralshub.com/ai-sitemap.xml
+
+## What AI Referrals Hub™ Does
+- Positions law firms to be recommended by AI
+- Maps case types and cities for AI relevance
+- Generates structured AI-readable content
+- Publishes across trusted AI-crawlable platforms
+- Expands authority signals over time
+
+## Related Resources
+- https://clients.aireferralshub.com/ai-data
