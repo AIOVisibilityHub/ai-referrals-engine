@@ -18,7 +18,7 @@ const Index = () => {
           content="Position your business, law firm, or medical practice to be recommended by ChatGPT, Perplexity & Google AI. 100+ built-in automations. Launch special 50% off through Dec 31st." 
         />
         <meta name="keywords" content="AI visibility, AI referrals, ChatGPT marketing, n8n automation, business automation, law firm marketing, healthcare marketing" />
-        <link rel="canonical" href="https://aivisibilityhub.com" />
+        <link rel="canonical" href="https://clients.aireferralshub.com" />
       </Helmet>
       
       <div className="min-h-screen bg-background">
