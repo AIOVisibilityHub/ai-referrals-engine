@@ -16,6 +16,7 @@ const Footer = () => {
                 <p className="text-xs text-muted-foreground">Built to structure, publish, and reinforce your authority so AI platforms confidently recommend you.</p>
               </div>
             </div>
+          </div>
 <div class="text-sm text-muted-foreground mt-10">
   <p>
     This site provides structured data and AI-readable resources to improve visibility across AI systems.
@@ -26,9 +27,6 @@ const Footer = () => {
     <li><a href="/ai-sitemap.xml">AI Sitemap</a></li>
   </ul>
 </div>
-
-          </div>
-
           <div className="mt-8 pt-8 border-t border-border/50 text-center">
             <p className="text-sm text-muted-foreground">
               © {new Date().getFullYear()} AI Referrals Hub™. All rights reserved.
