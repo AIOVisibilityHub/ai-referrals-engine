@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://clients.aireferralshub.com/#organization",
+  "name": "AI Referrals Hub™",
+  "url": "https://clients.aireferralshub.com/",
+  "description": "AI Referrals Hub™ is a system designed to help law firms get found, understood, and recommended by AI systems.",
+  "brand": "AI Referrals Hub™",
+  "sameAs": []
+}
