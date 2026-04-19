@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://clients.aireferralshub.com/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/ai-data</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/llms.txt</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/llms-full.txt</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/full-context.md</loc>
+  </url>
+</urlset>
