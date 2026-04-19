@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://aireferralshub.com/</loc>
+  </url>
+
+  <url>
+    <loc>https://aireferralshub.com/ai-data</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/llms.txt</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/llms-full.txt</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/full-context.md</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/main-organization.json</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/service.schema.json</loc>
+  </url>
+
+  <url>
+    <loc>https://clients.aireferralshub.com/locations.schema.json</loc>
+  </url>
+
+  <url>
+    <loc>https://github.com/DFYRANKINGS/AI-Referrals-Hub</loc>
+  </url>
+</urlset>
