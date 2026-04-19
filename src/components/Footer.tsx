@@ -18,9 +18,6 @@ const Footer = () => {
             </div>
           </div>
 <div class="text-sm text-muted-foreground mt-10">
-  <p>
-    This site provides structured data and AI-readable resources to improve visibility across AI systems.
-  </p>
   <ul class="mt-2 space-y-1">
     <li><a href="/llms.txt">AI Index File</a></li>
     <li><a href="/full-context.md">Full AI Context</a></li>
