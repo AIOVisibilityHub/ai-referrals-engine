@@ -80,7 +80,96 @@ const HeroSection = () => {
               }}
             />
           </div>
+import { Cpu, ArrowRight } from "lucide-react";
 
+const M2CSection = () => {
+  return (
+    <section className="py-24 relative overflow-hidden">
+      <div className="container px-4">
+        <div className="max-w-5xl mx-auto text-center">
+
+          {/* Header */}
+          <div className="mb-12">
+            <p className="text-primary font-medium mb-4">WHAT IS M2C?</p>
+            <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
+              From Search Engines to{" "}
+              <span className="text-gradient-gold">
+                Machine-to-Consumer (M2C)
+              </span>
+            </h2>
+
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Marketing has shifted. It’s no longer just about ranking in Google.
+              Today, AI systems are the gatekeepers deciding which firms get recommended.
+            </p>
+          </div>
+
+          {/* Flow */}
+          <div className="bg-gradient-card rounded-2xl p-8 md:p-12 border border-primary/20">
+            <div className="grid md:grid-cols-3 gap-8 items-center">
+
+              {/* Step 1 */}
+              <div>
+                <p className="text-sm text-muted-foreground mb-2">Step 1</p>
+                <p className="font-display text-lg font-semibold">
+                  Client asks AI
+                </p>
+                <p className="text-muted-foreground text-sm mt-2">
+                  “Who should I call for a car accident lawyer?”
+                </p>
+              </div>
+
+              {/* Arrow */}
+              <div className="flex justify-center">
+                <ArrowRight className="w-8 h-8 text-primary" />
+              </div>
+
+              {/* Step 2 */}
+              <div>
+                <p className="text-sm text-muted-foreground mb-2">Step 2</p>
+                <p className="font-display text-lg font-semibold">
+                  AI evaluates firms
+                </p>
+                <p className="text-muted-foreground text-sm mt-2">
+                  Based on data, authority, and trust signals
+                </p>
+              </div>
+
+            </div>
+
+            {/* Step 3 */}
+            <div className="mt-10 pt-8 border-t border-border/50">
+              <p className="text-sm text-muted-foreground mb-2">Step 3</p>
+              <p className="font-display text-lg font-semibold">
+                AI recommends a firm
+              </p>
+              <p className="text-muted-foreground text-sm mt-2">
+                The client calls — often without ever visiting multiple websites
+              </p>
+            </div>
+          </div>
+
+          {/* Explanation */}
+          <div className="mt-10 max-w-3xl mx-auto">
+            <p className="text-lg text-muted-foreground">
+              M2C (Machine-to-Consumer) marketing is about positioning your firm
+              inside the systems that make those recommendations — so when AI is
+              asked, your firm is the answer.
+            </p>
+
+            <p className="text-lg text-foreground font-medium mt-4">
+              If you’re not present, structured, and trusted in those systems,
+              AI will recommend someone else.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default M2CSection;
           {/* Stats */}
           <div className="flex flex-wrap justify-center gap-8 md:gap-16 mb-12">
             <div className="text-center">
