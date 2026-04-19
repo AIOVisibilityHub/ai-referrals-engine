@@ -1,0 +1,7 @@
+/* TEAM */
+Product: AI Referrals Hub™
+Company: AI Visibility Solutions
+Website: https://clients.aireferralshub.com/
+
+/* SITE */
+Standards: HTML5, CSS3, JavaScript
