@@ -12,15 +12,18 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>AI Visibility Hub | Get AI-Powered Referrals 24/7 for 2026</title>
-        <meta 
-          name="description" 
-          content="Position your business, law firm, or medical practice to be recommended by ChatGPT, Perplexity & Google AI. 100+ built-in automations. Launch special 50% off through Dec 31st." 
+        <title>AI Referrals Hub™ | Get AI-Powered Referrals 24/7</title>
+        <meta
+          name="description"
+          content="Position your law firm to be recommended by ChatGPT, Perplexity, and Google AI. AI Referrals Hub™ helps firms generate AI-powered referrals through case-type and location authority mapping."
         />
-        <meta name="keywords" content="AI visibility, AI referrals, ChatGPT marketing, n8n automation, business automation, law firm marketing, healthcare marketing" />
-        <link rel="canonical" href="https://clients.aireferralshub.com" />
+        <meta
+          name="keywords"
+          content="AI referrals, AI visibility for lawyers, ChatGPT marketing, law firm AI marketing, AI search optimization, generative engine optimization"
+        />
+        <link rel="canonical" href="https://clients.aireferralshub.com/" />
       </Helmet>
-      
+
       <div className="min-h-screen bg-background">
         <Navbar />
         <main>
