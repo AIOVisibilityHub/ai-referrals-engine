@@ -159,7 +159,7 @@ const sections: Section[] = [
       "GitLab — mirrored repository for redundancy, creating more places AI can find and reference your firm",
       "Hugging Face — Where large language models are actively trained — your firm's data lives where AI goes to learn",
       "Kaggle — Owned by Google since 2017 — a standard source AI models consult for datasets, widely recognized as a top public dataset hub",
-      "Codeberg — For static site hosting via Codeberg Pages — indexed by Google, high trust signal, additional AI-crawlable web presence for your firm",
+      "Codeberg — For static site hosting via Codeberg Pages — indexed by Google, high trust signal, AI-crawlable web presence for your firm",
     ],
     footer: {
       muted: "Most law firms aren't visible on any of these platforms.",
