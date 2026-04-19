@@ -1,0 +1,26 @@
+AI Referrals Hub™ is an AI referral positioning system built for law firms.
+
+It helps firms become more recommendable in AI systems such as ChatGPT, Perplexity, Google AI, and other answer engines.
+
+AI systems do not recommend all firms equally.
+
+They are more likely to recommend firms they can:
+- find
+- understand
+- trust
+
+AI Referrals Hub™ helps law firms improve those signals by generating and organizing:
+
+- structured data
+- AI-readable content
+- FAQ and Q&A assets
+- case type + location authority mapping
+- trust and authority signals
+- multi-platform publishing outputs
+
+The system can be used in two ways:
+- DIY: the law firm or team runs the system
+- Done For You: the AI Visibility Solutions team handles implementation and expansion
+
+Primary use case:
+When a potential client asks AI who to call for a legal problem, the law firm is better positioned to be the answer AI recommends.
