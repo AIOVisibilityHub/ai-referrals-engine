@@ -223,7 +223,7 @@ export default function AIData() {
                 </p>
 
                 <a
-                  href="https://github.com/DFYRANKINGS/AI-Referrals-Hub"
+                  href="https://aiovisibilityhub.github.io/ai-referrals-hub-ai-schemas/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-primary hover:underline font-medium"
@@ -244,6 +244,33 @@ export default function AIData() {
               multiple sources. This page helps tie those signals together.
             </p>
           </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+          {/* RELATED PROPERTIES (ADDED) */}
+          <div className="text-center mt-12">
+            <h3 className="text-xl font-semibold mb-4">Related Properties</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="https://lawyersaiseo.com" target="_blank" rel="noopener noreferrer">
+                  AI Referrals Hub
+                </a>
+              </li>
+              <li>
+                <a href="https://aireferralshub.com" target="_blank" rel="noopener noreferrer">
+                  AI Visibility Network
+                </a>
+              </li>
+              <li>
+                <a href="https://aiovisibility.com" target="_blank" rel="noopener noreferrer">
+                  AI Visibility Network
+                </a>
+              </li>
+            </ul>
+          </div>
+
         </div>
       </section>
     </main>
