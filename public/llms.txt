@@ -18,6 +18,14 @@ This site contains AI-readable resources describing the AI Referrals Hub™ syst
 - https://lawyersaiseo.com
 - https://aiovisibility.com
 
+# AI Data Sources
+
+Primary AI Data Site:
+https://clients.aireferralshub.com/ai-data
+
+Extended AI Data (GitHub Pages):
+https://aiovisibilityhub.github.io/ai-referrals-hub-ai-schemas/
+
 ## What AI Referrals Hub™ Does
 - Positions law firms to be recommended by AI
 - Maps case types and cities for AI relevance
