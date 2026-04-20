@@ -38,11 +38,11 @@ const sections: Section[] = [
   {
     title: "Unanswered AI Overviews Q&A + Snippets",
     subtitle:
-      "The questions AI answer engines can't fully answer yet - and your firm can own.",
+      "The questions AI answer engines cannot fully answer yet - and your firm can own.",
     items: [
       "Uses Perplexity to find specific unanswered questions qualifying for Google AI Overviews and featured snippets",
       "Generates QAPage schemas separate from FAQs for maximum search coverage",
-      "Puts your firm's answers in the gaps other firms haven't found yet",
+      "Puts your firm's answers in the gaps other firms have not found yet",
     ],
   },
   {
@@ -92,9 +92,9 @@ const sections: Section[] = [
     subtitle: "Know exactly where your AI visibility gaps are - and how to fill them.",
     items: [
       "Visibility Gap Analysis - identifies untapped keywords, missing pages and AI visibility gaps based on your practice area and search trends",
-      "Missed Opportunities Analysis - finds what's missing across your FAQs, help articles and schema coverage",
+      "Missed Opportunities Analysis - finds what is missing across your FAQs, help articles and schema coverage",
       "Pain Points Mapper - maps client pain points to solutions with objection handling specific to your case types",
-      "Content Gap Map - shows exactly what content AI systems are looking for that your firm hasn't provided yet",
+      "Content Gap Map - shows exactly what content AI systems are looking for that your firm has not provided yet",
     ],
   },
   {
@@ -212,9 +212,7 @@ const FeaturesDetailSection = () => {
                       <h3 className="font-display text-xl md:text-2xl font-bold mb-2">
                         <span className="text-gradient-gold">{section.title}</span>
                       </h3>
-                      <p className="text-muted-foreground">
-                        {section.subtitle}
-                      </p>
+                      <p className="text-muted-foreground">{section.subtitle}</p>
                     </div>
 
                     <ChevronDown
