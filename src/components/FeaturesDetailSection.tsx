@@ -1,16 +1,131 @@
 import { useState } from "react";
 import { Check, Shield, ChevronDown } from "lucide-react";
 
-const sections = [
+type Section = {
+  title: string;
+  subtitle: string;
+  items: string[];
+  footer?: {
+    muted: string;
+    accent: string;
+  };
+};
+
+const sections: Section[] = [
+  {
+    title: "Core Schema Generation",
+    subtitle:
+      "Your firm's complete AI visibility foundation in machine-readable formatting - built automatically from your URL and published where AI systems crawl, train and learn.",
+    items: [
+      "Hundreds to thousands of structured schema files specific to your practice areas, case types and locations",
+      "Sitemap, robots.txt, LLM context files and AI plugin JSON - everything AI needs to crawl and understand your firm",
+      "Knowledge graph with cross-linked entities so AI can navigate your firm's complete expertise",
+      "Citation-ready LLM source blocks built specifically for the RAG systems that power ChatGPT, Perplexity and Google AI",
+      "MD + YAML entity pages",
+      "Long-form LLM narrative engineered for AI ingestion",
+    ],
+  },
+  {
+    title: "Perplexity-Powered FAQ Research",
+    subtitle:
+      "Real questions. Real cities. Real case types. Generated from what people are actually asking right now.",
+    items: [
+      "Hundreds of FAQ schemas researched by Perplexity - based on real questions people ask about specific case types in your specific cities",
+      "FAQPage markup specifically formatted for Google AI Overviews and featured snippets",
+      "Expandable at any time - add new cities, new case types and generate additional FAQs as your firm grows",
+    ],
+  },
+  {
+    title: "Unanswered AI Overviews Q&A + Snippets",
+    subtitle:
+      "The questions AI answer engines cannot fully answer yet - and your firm can own.",
+    items: [
+      "Uses Perplexity to find specific unanswered questions qualifying for Google AI Overviews and featured snippets",
+      "Generates QAPage schemas separate from FAQs for maximum search coverage",
+      "Puts your firm's answers in the gaps other firms have not found yet",
+    ],
+  },
+  {
+    title: "Citation-Ready Help Articles + FAQ Hybrids",
+    subtitle: "Engineered to get cited - not ignored.",
+    items: [
+      "Help articles generated per case type using Perplexity research - specifically sized to qualify for Google AI Overviews, featured snippets and AI citations",
+      "Custom topic generator - enter any practice area, niche case type or local issue and generate targeted help articles on demand",
+      "Every article is structured so AI systems can pull from it, cite it and recommend it when answering client questions",
+    ],
+  },
+  {
+    title: "Testimonial Discovery and Schema",
+    subtitle: "Your reputation - structured so AI can trust and cite it.",
+    items: [
+      "Perplexity crawls Avvo, Google, Yelp, Facebook and more to surface existing reviews about your firm",
+      "Upload your own testimonials directly into structured review schema",
+      "All formatted as trusted social proof signals AI systems recognize when evaluating which firm to recommend",
+    ],
+  },
+  {
+    title: "Per-Page Crawl for Custom Code Insertion",
+    subtitle: "AI visibility down to every single page of your website.",
+    items: [
+      "Enter any page URL - instantly generates JSON-LD, AI citations, breadcrumbs and meta tags for that specific page",
+      "Ensures every page of your website is AI-readable, not just your homepage",
+      "Copy and paste output directly into your page header - no developer needed",
+    ],
+  },
+  {
+    title: "Website Root Files for LLMs and AI Systems",
+    subtitle:
+      "The foundational files AI crawlers and answer engines look for first - generated and ready to drop into your site's root directory.",
+    items: [
+      "sitemap.xml - tells Google and AI crawlers exactly which pages to index across your entire firm",
+      "robots.txt - controls crawler access and signals which content AI systems are welcome to ingest",
+      "humans.txt - team and credit metadata that adds authenticity signals AI systems use for trust scoring",
+      "Main Organization schema - full business identity, every city you serve, complete firm overview",
+      "LegalService schema - every practice area and service line, mapped to all of your office locations",
+      "Attorney profiles schema - bios, bar numbers and credentials for every attorney at your firm",
+      "Locations schema - every office location with geo coordinates AI uses for local recommendations",
+      "/.well-known/security.txt - security contact metadata that signals legitimacy to AI trust systems",
+    ],
+  },
+  {
+    title: "Analysis and Intelligence Suite",
+    subtitle: "Know exactly where your AI visibility gaps are - and how to fill them.",
+    items: [
+      "Visibility Gap Analysis - identifies untapped keywords, missing pages and AI visibility gaps based on your practice area and search trends",
+      "Missed Opportunities Analysis - finds what's missing across your FAQs, help articles and schema coverage",
+      "Pain Points Mapper - maps client pain points to solutions with objection handling specific to your case types",
+      "Content Gap Map - shows exactly what content AI systems are looking for that your firm hasn't provided yet",
+    ],
+  },
+  {
+    title: "14-Tool Authority Builder Suite",
+    subtitle: "Everything AI needs to recognize your firm as the authority in your market.",
+    items: [
+      "AI Visibility Score - 0-100 score showing exactly where your firm stands across AI platforms",
+      "Competitor Gap Detector - shows authority gaps between your firm and other firms AI is currently recommending",
+      "Trust Signals Scorecard - evaluates and scores every trust signal AI systems use to evaluate your firm",
+      "Topic Expansion - topic clusters, subtopics and semantic coverage opportunities",
+      "Topic Depth Checker - evaluates topical coverage depth and gaps",
+      "Industry Knowledge File - industry-specific knowledge formatted for AI training",
+      "Legal Services Knowledge - legal services data structured for AI ingestion",
+      "Case Type Knowledge - case type classifications and details AI systems use to match clients to firms",
+      "Entity Expertise Builder - authority content about your expertise and credentials",
+      'Value Proposition Builder - your USPs, benefits and "why choose us" content structured for AI',
+      "Q&A Strength Builder - Q&A analysis and enhancement recommendations",
+      "Authority Signal Generator - E-E-A-T signals and authority markers",
+      "Reputation Metadata - business legitimacy and credential metadata",
+      "Long-Form LLM - extended narrative for deep AI ingestion",
+    ],
+  },
   {
     title: "BONUS 1 - Instant AI Content Publisher™",
     subtitle:
       "A separate standalone app that turns massive schema output into ready-to-publish pages in minutes.",
     items: [
-      "Download large ZIP files of schema JSON",
-      "Convert FAQs and Q&As into HTML pages instantly",
-      "Accordion formatting ready to paste",
-      "No developer needed",
+      "Download large ZIP files of schema JSON generated across your entire firm",
+      "Instantly convert hundreds of FAQs, Q&As and help articles into ready-to-publish HTML pages",
+      "Accordion-style formatting designed to drop straight into any page of your website",
+      "No developer needed - copy, paste and publish",
     ],
   },
   {
@@ -19,90 +134,144 @@ const sections = [
       "Keeps your firm current, visible, and continuously re-evaluated by AI systems.",
     items: [
       "Automatic content refresh every 30 days",
-      "Triggers re-indexing across AI engines",
-      "Maintains AI confidence in your firm",
+      "Triggers re-indexing across Google, Bing and AI search engines",
+      "Signals ongoing activity so AI stays confident recommending your firm",
+      "Fully automated - runs in the background",
     ],
   },
   {
     title: "BONUS 3 - AI Indexing + Submission System™",
     subtitle:
-      "Gets your content discovered faster across search and AI platforms.",
+      "Gets your new content and updates discovered faster across search and AI platforms.",
     items: [
-      "Automated submissions to search engines",
-      "Faster indexing of new content",
-      "No manual work required",
+      "Automated submission to Google, Bing and AI search engines",
+      "Accelerates discovery of newly published pages and updates",
+      "Helps your firm get re-evaluated faster when new authority signals go live",
+      "Runs automatically without manual submission work",
     ],
+  },
+  {
+    title: "Your Firm Gets Published Where AI Systems Crawl",
+    subtitle:
+      "AI does not just look at your website. Your firm is positioned across multiple trusted platforms AI systems crawl, learn from, and use to decide who to recommend.",
+    items: [
+      "GitHub - one of the most trusted public data repositories, heavily crawled by major AI systems",
+      "GitHub Pages - creates a live, publicly accessible AI-crawlable website published specifically for your firm",
+      "GitLab - mirrored repository for redundancy, creating more places AI can find and reference your firm",
+      "Hugging Face - where large language models are actively trained - your firm's data lives where AI goes to learn",
+      "Kaggle - owned by Google since 2017 - a standard source AI models consult for datasets, widely recognized as a top public dataset hub",
+      "Codeberg - for static site hosting via Codeberg Pages - indexed by Google, high trust signal, AI-crawlable web presence for your firm",
+    ],
+    footer: {
+      muted: "Most law firms are not visible on any of these platforms.",
+      accent: "Your firm will be - automatically.",
+    },
   },
 ];
 
-export default function FeaturesDetailSection() {
+const FeaturesDetailSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
-  const toggle = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
+  const toggleSection = (index: number) => {
+    setOpenIndex((prev) => (prev === index ? null : index));
   };
 
   return (
-    <section className="py-16">
-      <div className="max-w-5xl mx-auto px-4 space-y-4">
-        {sections.map((section, index) => {
-          const isOpen = openIndex === index;
-
-          return (
-            <div
-              key={section.title}
-              className="border border-border rounded-xl bg-card overflow-hidden"
-            >
-              {/* HEADER */}
-              <button
-                onClick={() => toggle(index)}
-                className="w-full text-left p-6 flex items-center justify-between"
-              >
-                <div>
-                  <h3 className="text-lg font-bold text-primary">
-                    {section.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground">
-                    {section.subtitle}
-                  </p>
-                </div>
-
-                {/* ARROW */}
-                <ChevronDown
-                  className={`w-5 h-5 transition-transform duration-300 ${
-                    isOpen ? "rotate-180" : ""
-                  }`}
-                />
-              </button>
-
-              {/* CONTENT */}
-              {isOpen && (
-                <div className="px-6 pb-6">
-                  <ul className="space-y-2">
-                    {section.items.map((item) => (
-                      <li key={item} className="flex gap-2 items-start">
-                        <Check className="w-4 h-4 mt-1 text-primary" />
-                        <span className="text-sm">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              )}
-            </div>
-          );
-        })}
-
-        {/* FOOTER */}
-        <div className="mt-10 p-6 border rounded-xl flex items-center gap-4">
-          <Shield className="w-6 h-6 text-primary" />
-          <div>
-            <p className="font-semibold">Zero Technical Skills Required</p>
-            <p className="text-sm text-muted-foreground">
-              Everything runs automatically once set up.
+    <section className="py-24 relative overflow-hidden bg-secondary/30">
+      <div className="container px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="text-center mb-16">
+            <p className="text-primary font-medium mb-4">COMPLETE FEATURE LIST</p>
+            <h2 className="font-display text-3xl md:text-5xl font-bold mb-6">
+              Your <span className="text-gradient-gold">AI Advantage</span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+              Exposure across multiple highly trusted platforms where AI crawls and learns means more qualified calls, more consultations, more cases - without coding.
             </p>
+          </div>
+
+          <div className="space-y-4">
+            {sections.map((section, index) => {
+              const isOpen = openIndex === index;
+
+              return (
+                <div
+                  key={section.title}
+                  className="bg-gradient-card rounded-2xl border border-border/50 overflow-hidden"
+                >
+                  <button
+                    type="button"
+                    onClick={() => toggleSection(index)}
+                    className="w-full text-left p-6 md:p-8 flex items-start justify-between gap-4"
+                  >
+                    <div>
+                      <h3 className="font-display text-xl md:text-2xl font-bold mb-2">
+                        <span className="text-gradient-gold">{section.title}</span>
+                      </h3>
+                      <p className="text-muted-foreground">{section.subtitle}</p>
+                    </div>
+
+                    <ChevronDown
+                      className={`w-5 h-5 text-primary flex-shrink-0 mt-1 transition-transform duration-300 ${
+                        isOpen ? "rotate-180" : ""
+                      }`}
+                    />
+                  </button>
+
+                  {isOpen && (
+                    <div className="px-6 md:px-8 pb-6 md:pb-8">
+                      <ul className="space-y-2.5">
+                        {section.items.map((item) => (
+                          <li key={item} className="flex items-start gap-3">
+                            <Check className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                            <span className="text-sm text-foreground/90">{item}</span>
+                          </li>
+                        ))}
+                      </ul>
+
+                      {section.footer && (
+                        <div className="mt-6 pt-5 border-t border-border/50 text-center">
+                          <p className="text-sm text-muted-foreground mb-1">
+                            {section.footer.muted}
+                          </p>
+                          <p className="font-display text-base md:text-lg font-semibold text-primary">
+                            {section.footer.accent}
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="mt-12 bg-gradient-card rounded-2xl p-8 border border-primary/20 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 rounded-xl bg-primary/10 flex items-center justify-center">
+                <Shield className="w-7 h-7 text-primary" />
+              </div>
+              <div>
+                <h3 className="font-display text-xl font-semibold mb-1">
+                  Zero Technical Skills Required
+                </h3>
+                <p className="text-muted-foreground">
+                  All automations are pre-built and ready to deploy.
+                </p>
+              </div>
+            </div>
+
+            <div className="text-center md:text-right">
+              <p className="text-sm text-muted-foreground">Just complete your profile and</p>
+              <p className="font-display text-lg font-semibold text-primary">
+                Everything runs automatically
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </section>
   );
-}
+};
+
+export default FeaturesDetailSection;
