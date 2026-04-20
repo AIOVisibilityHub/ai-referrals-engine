@@ -13,7 +13,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="font-display font-bold">AI Referrals Hub™</p>
-                <p className="text-xs text-muted-foreground">Built to structure, publish, and reinforce your authority so AI platforms confidently recommend you.</p>
+                <p className="text-xs text-muted-foreground">Built by AI Visibility Solutions to structure, publish, and reinforce your authority so AI platforms confidently recommend you.</p>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
 </div>
           <div className="mt-8 pt-8 border-t border-border/50 text-center">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} AI Referrals Hub™. All rights reserved.
+              © {new Date().getFullYear()} AI Referrals Hub™ by AI Visibility Solutions — Experts in AI Referrals. All rights reserved.
             </p>
           </div>
         </div>
