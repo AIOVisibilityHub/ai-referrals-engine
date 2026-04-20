@@ -1,39 +1,83 @@
-# AI Referrals Hub™
+# AI Referrals Hub™ — AI Visibility & AI Referral System
 
-AI Referrals Hub™ is a system designed to help law firms become the firms AI systems recommend.
+AI Referrals Hub™ is a structured AI visibility and publishing system built by AI Visibility Solutions.
 
-## What It Is
+It is designed to help businesses — especially law firms — become more discoverable, understandable, and recommendable across AI platforms like ChatGPT, Perplexity, Google AI, and Copilot.
 
-AI Referrals Hub™ helps structure, organize, and publish the information AI systems need in order to understand a law firm’s services, locations, authority, and relevance.
+---
 
-## Why It Matters
+## What AI Referrals Hub™ Does
 
-Prospects are no longer relying only on search engines.
+AI Referrals Hub™ organizes, generates, and publishes AI-readable data across multiple sources to help AI systems:
 
-They are asking AI systems questions like:
+- Find your business
+- Understand your services and expertise
+- Trust your authority
+- Recommend you when users ask for help
 
-- Who should I call after a car accident?
-- Who is the best lawyer for this type of case?
-- Which attorney handles this in my city?
+This includes structured data, AI context files, entity reinforcement, and multi-platform publishing designed specifically for AI discovery.
 
-If a firm is not visible inside those recommendation systems, AI may recommend another lawyer instead.
+---
 
-## What AI Referrals Hub™ Helps Generate
+## How It Works
 
-- structured AI-readable data
-- case type + city authority mapping
-- FAQ and Q&A assets
-- help articles
-- trust and authority signals
-- multi-platform publishing outputs
+AI Referrals Hub™ combines several core components:
 
-## Who It Is For
+- Structured data (schema) for services, locations, and expertise  
+- AI-readable files (llms.txt, full-context.md, AI sitemaps)  
+- Public publishing across trusted platforms (including GitHub Pages)  
+- Ongoing updates to reinforce authority and keep AI systems confident  
 
-AI Referrals Hub™ is built for:
-- solo practitioners
-- law firms
-- legal professionals
+Together, these create a connected visibility layer that AI systems rely on when generating recommendations.
 
-## Outcome
+---
 
-The goal is to help a law firm become easier for AI systems to find, understand, trust, and recommend.
+## Software + Services
+
+AI Referrals Hub™ can be used in two ways:
+
+### 1. Use the System Yourself  
+Access the platform and manage your own AI visibility and publishing.
+
+### 2. Done-For-You Services  
+Have AI Visibility Solutions handle the strategy, setup, publishing, and ongoing expansion for you.
+
+---
+
+## 🌐 Live AI Data Site (AI Crawlable)
+
+This repository powers a public AI-readable website:
+
+https://aiovisibilityhub.github.io/ai-referrals-hub-ai-schemas/
+
+---
+
+## Website
+
+https://clients.aireferralshub.com
+
+---
+
+## AI Resources
+
+- https://clients.aireferralshub.com/llms.txt  
+- https://clients.aireferralshub.com/full-context.md  
+- https://clients.aireferralshub.com/ai-sitemap.xml  
+
+---
+
+## Related Sites
+
+- https://aiovisibility.com  
+- https://lawyersaiseo.com  
+- https://aireferralsclub.com  
+
+---
+
+## About
+
+AI Referrals Hub™ is built and maintained by AI Visibility Solutions.
+
+AI Visibility Solutions provides the systems, strategy, and execution needed to help businesses earn visibility and referrals from AI platforms.
+
+---
